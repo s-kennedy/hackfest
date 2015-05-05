@@ -872,6 +872,14 @@ p.contact-info-text {
   color: #d1d1d1;
 }
 
+a.contact-info-text {
+  color: #d1d1d1;
+}
+
+a.contact-info-text:hover {
+  color: #ff9172;
+}
+
 #contact input.form-control, #contact textarea.form-control {
   background: #545454;
   color: #fff !important;
