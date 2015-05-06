@@ -244,7 +244,7 @@ You can donate or sell your theme if you like. Get in touch with us if this inte
 /*Default*/
 .quform-theme-custom-custom .quform-submit button span {
 	 /*Add Left image*/
-	 border: 2px solid #ff9172;
+	 border: 2px solid #c70331;
 	 border-radius: 0;
 	 font-size: 13px;
 	 font-weight: 700;
@@ -257,8 +257,8 @@ You can donate or sell your theme if you like. Get in touch with us if this inte
 }
 /*Hover*/
 .quform-theme-custom-custom .quform-submit button:hover span {
-	background: #ff9172;
-	border-color: #ff9172;
+	background: #c70331;
+	border-color: #c70331;
 	color: #fff;
 }
 /*Active*/
