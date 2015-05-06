@@ -714,7 +714,14 @@ p.separator-text {
     margin-bottom: 30px;
   }
   .about-info p {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+  }
+  .about-info ul {
+    margin-bottom: 30px;
+  }
+  .about-info ul i {
+    font-size: 16px;
+    color: #fff;
   }
 
 .team {
