@@ -109,11 +109,10 @@ p.sub-header-small {
   color: #8c8c8c;
 }
 
-a:hover {
+a:hover, a:focus{
   color: #c70331;
   text-decoration: none;
 }
-
 
 
 /* 03. Buttons -------------------------------------------------- */
@@ -602,7 +601,7 @@ p.service-type-text {
   }
 
 .process-image {
-  background: url(../images/process.png) no-repeat;
+  background: url(../images/process-pink.png) no-repeat;
   background-size: 100% auto;
   max-width: 100%;
   height: 158px;
@@ -723,6 +722,9 @@ p.separator-text {
     font-size: 16px;
     color: #fff;
   }
+  .about-info ul i:hover {
+    color: #c70331;
+  }
 
 .team {
   background: #fff;
@@ -779,11 +781,22 @@ p.separator-text {
 }
 
 .news {
-  background: url(../images/latest-news-1.jpg);
   width: 100%;
   height: 280px;
   position: relative;
   margin-bottom: 30px;
+}
+
+.news-1 {
+  background: url(../images/whycode1.png);
+}
+
+.news-2 {
+  background: url(../images/whycode2.png);
+}
+
+.news-3 {
+  background: url(../images/whycode3.png);
 }
 
 .news-content {
