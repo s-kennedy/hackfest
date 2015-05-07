@@ -1,29 +1,33 @@
+// Place all the styles related to the site controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
 /*
-	SCRN II - HTML Template
-	Copyright 2015, Rodbor
-	www.themenom.com
-	
-	--- Main Stylesheet ---
-	
-	Contents
-	
-	01. Generic styles
-	02. Typography
-	03. Buttons
-	04. Headers elements
-	05. Navigation
-	06. Intro
-	07. Work
-	08. Services
-	09. Separators
-	10. About
-	11. Latest news
-	12. Contact
-	13. Single project
-	14. Blog
-	15. 404 Page
-	16. Style tile
-	17. Media queries
+  SCRN II - HTML Template
+  Copyright 2015, Rodbor
+  www.themenom.com
+  
+  --- Main Stylesheet ---
+  
+  Contents
+  
+  01. Generic styles
+  02. Typography
+  03. Buttons
+  04. Headers elements
+  05. Navigation
+  06. Intro
+  07. Work
+  08. Services
+  09. Separators
+  10. About
+  11. Latest news
+  12. Contact
+  13. Single project
+  14. Blog
+  15. 404 Page
+  16. Style tile
+  17. Media queries
 
 */
 
@@ -927,7 +931,7 @@ p.copyright {
 /* 13. Single project -------------------------------------------------- */
 
 #project-intro {
-  background: url(single-project-intro.jpg) 50% 0 repeat fixed;
+  background: url(../images/single-project-intro.jpg) 50% 0 repeat fixed;
   background-size: cover;
   width: 100%;
   height: 95vh;
@@ -1038,7 +1042,7 @@ p.project-text-medium {
 }
 
 .post-left {
-  background: url(single-post.jpg);
+  background: url(../images/single-post.jpg);
   background-size: cover;
   overflow: hidden;
 }
@@ -1404,7 +1408,7 @@ textarea.form-control {
   }
     
     ol.lens-profile-timeline {
-	    display: none;
+      display: none;
     }
 }
 
