@@ -8,16 +8,17 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
 
     if @contact.save
-      # contactMailer.confirm_email(@contact).deliver
+      ContactsMailer.contact_form(@contact).deliver_now
       redirect_to root_path
     else
-      render 'new'
+      flash[:error] = "Your message was not submitted correctly. Please try again."
+      redirect_to '/#contact-form'
     end
   end
 
   private
 
   def contact_params
-    params.require(:contact).permit(:name, :email, :message)
+    params.require(:contact).permit(:name, :email, :register, :message)
   end
 end

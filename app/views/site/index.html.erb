@@ -452,30 +452,33 @@
 		<div class="section-header">
 			<span class="section-header-line"></span><p class="header-number">5</p><span class="section-header-line"></span>
 			<div class="hexagon"></div>
-			<h2>register</h2>
-			<p class="sub-header">Register now to reserve your spot at the HackFest, or contact us for more info. </p>
+			<h2>Contact Us</h2>
+			<ul class="contact-info-list list-unstyled list-inline">
+				<li>
+					<p class="contact-info-title">email</p>
+					<p><a class="contact-info-text" href="mailto:hi@ironhack.com" target="blank">hi@ironhack.com</a></p>
+				</li>
+				
+				<li>
+					<p class="contact-info-title">twitter</p>
+					<p><a class="contact-info-text" href="https://twitter.com/ironhack" target="blank">@ironhack</a></p>
+				</li>
+				
+				<li>
+					<p class="contact-info-title">visit</p>
+					<p><a class="contact-info-text" href="https://www.google.es/maps/place/MOB+(Makers+Of+Barcelona)/@41.391829,2.177191,17z/data=!3m1!4b1!4m2!3m1!1s0x12a4a2e4de683851:0xb8914736ff97cfb6?hl=en" target="blank">Calle Bailen, 11<br/>Barcelona</a></p>
+				</li>
+			</ul>
+			<p class="sub-header"> If you want to register for the event or find out more, please fill out the form below!</p>
 		</div> <!-- end section-header -->
 		
-		<ul class="contact-info-list list-unstyled list-inline">
-			<li>
-				<p class="contact-info-title">email</p>
-				<p><a class="contact-info-text" href="mailto:hi@ironhack.com" target="blank">hi@ironhack.com</a></p>
-			</li>
-			
-			<li>
-				<p class="contact-info-title">twitter</p>
-				<p><a class="contact-info-text" href="https://twitter.com/ironhack" target="blank">@ironhack</a></p>
-			</li>
-			
-			<li>
-				<p class="contact-info-title">visit</p>
-				<p class="contact-info-text">Calle Bailen, 11<br />Barcelona</p>
-			</li>
-		</ul>
 		
 		<div class="row">
 			<!-- contact form begins -->
-            <div class="form-container">
+            <div class="form-container" id="contact-form">
+            <% if flash[:error] %>
+    					<div class="flash-error"><%= flash[:error] %></div>
+  					<% end %>
                 <form accept-charset="UTF-8" action="/contacts" method="post"class="form">
                 <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
         
@@ -486,62 +489,60 @@
                         <div class="col-lg-6">
 	                        <!-- begin name input element -->
 	                        <!-- <div class="quform-element quform-element-text"> -->
-	                            <!-- <div class="quform-spacer"> -->
+	                            <div class="contact-form-spacer">
 	                                <!-- <div class="quform-input"> -->
 	                                	<input id="name" type="text" class="form-control" name="contact[name]" placeholder="Name">
 	                                <!-- </div> -->
-	                            <!-- </div> -->
+	                            </div>
 	                        <!-- </div> -->
 	                        <!-- end name input element -->
                         </div> <!-- end col-lg-6 -->
 	                    
 	                    <div class="col-lg-6">
 	                        <!-- begin email input element -->
-	                        <!-- <div class="quform-element quform-element-text"> -->
-	                            <!-- <div class="quform-spacer"> -->
-	                                <!-- <div class="quform-input"> -->
+	                            <div class="contact-form-spacer">
 	                                	<input id="email" type="text" class="form-control" name="contact[email]" placeholder="Email">
-	                                <!-- </div> -->
-	                            <!-- </div> -->
-	                        <!-- </div> -->
+	                            </div>
 	                        <!-- end email input element -->
 	                    </div> <!-- end col-lg-6 -->
+
 
 	                    
 	                    <div class="col-lg-12">
 	                        <!-- begin Textarea element -->
-	                        <!-- <div class="quform-element quform-element-textarea quform-huge"> -->
-	                            <!-- <div class="quform-spacer"> -->
-	                                <!-- <div class="quform-input"> -->
-	                                	<textarea id="message" class="form-control" name="contact[message]" placeholder="Message"></textarea>
-	                                <!-- </div> -->
-	                            <!-- </div> -->
-	                        <!-- </div> -->
+	                            <div class="contact-form-spacer">
+	                                	<textarea id="message" class="form-control" name="contact[message]" placeholder="Message (optional)"></textarea>
+	                            </div>
 	                        <!-- end Textarea element -->
 	                        
+	                    <div class="col-lg-12 register">
+	                    	<div class="contact-form-spacer text-center">
+		                    	<input id="register" class="register-checkbox" type="checkbox" name="contact[register]" value="Yes"> I want to attend Hackfest BCN. Sign me up!
+	                    	</div>
+	                    </div>
+	                    
 	                        <!-- begin Submit button -->
-	                        <!-- <div class="quform-submit text-center"> -->
-	                            <!-- <div class="quform-submit-inner"> -->
-	                                <button class="btn btn-default" type="submit" value="Send"><span><em>Send</em></span></button>
+	                        		<div class="text-center">
+	                                <button class="btn btn-default" type="submit" value="Send"><span>Send</span></button>
 	                            </div>
-	                            <!-- <div class="quform-loading-wrap"><span class="quform-loading"></span></div> -->
-	                        <!-- </div> -->
 	                        <!-- end Submit button -->
 	                    </div> <!-- end col-lg-12 -->
 	                       
                        <!-- </div> -->
-                   <!-- </div> -->
+                   </div>
                 </form>
             </div>
 			<!-- contact form ends -->
-			
-			<div class="map">
+
+
+<!-- 			<div class="map">
 				<img src="map.png" class="img-responsive" alt="" />
-				<!--<img src="images/map-cyan.png" class="img-responsive" alt="" />-->
-			</div> <!-- end map -->
+
+			</div>  -->
 			
 		</div> <!-- end row -->
 		
+			
 	</div> <!-- end container -->
 </div> <!-- end contact -->
 
