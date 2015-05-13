@@ -612,7 +612,7 @@ p.service-type-text {
 }
 
 ul.process-list li {
-  width: 120px;
+  width: 100px;
   padding: 0 10px;
 }
 ul.process-list h4 {
@@ -1359,7 +1359,7 @@ textarea.form-control {
   }
 
   ul.process-list li {
-    width: 150px;
+    width: 100px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -1377,7 +1377,7 @@ textarea.form-control {
   }
 
   ul.process-list li {
-    width: 150px;
+    width: 100px;
     padding-left: 6px;
     padding-right: 6px;
   }
