@@ -12,12 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap.min
 //= require jquery-1.11.1.min
 //= require jquery.animsition.min.js
 //= require jquery.mixitup.min.js
 //= require jquery.parallax-1.1.3
+//= require bootstrap.min
 //= require pushy.min
+
 //= require smooth-scroll.min
 //= require turbolinks
 //= require_tree .
