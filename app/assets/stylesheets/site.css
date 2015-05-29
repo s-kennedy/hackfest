@@ -248,7 +248,7 @@ span.section-header-line {
 #about p.header-number, #contact p.header-number {
   color: #a9a9a9;
 }
-#about .hexagon, #contact .hexagon , #separator-2 .hexagon {
+#about .hexagon, #register .hexagon {
   background: #3c3c3c;
 }
 #about span.section-header-line, #about .hexagon, #about .hexagon:before, #about .hexagon:after, #about .hexagon:before, #about .hexagon:after, #contact span.section-header-line, #contact .hexagon, #contact .hexagon:before, #contact .hexagon:after, #contact .hexagon:before, #contact .hexagon:after {
@@ -638,7 +638,7 @@ li.admin-time {
 
 /* 09. Separators -------------------------------------------------- */
 
-#separator-1, #separator-2 {
+#separator-1, #contact {
   text-align: center;
   padding-top: 70px;
 }
@@ -652,7 +652,7 @@ li.admin-time {
   z-index: 10;
 }
 
-#separator-2 {
+#contact {
   background: url(separator-bcn.png) 50% 0 repeat fixed;
   background-size: 100%;
   width: 100%;
@@ -874,23 +874,6 @@ p.news-read-more {
 
 /* 12. Contact -------------------------------------------------- */
 
-#contact {
-  background: #3c3c3c;
-  color: #fff;
-  padding: 50px 0 80px 0;
-  position: relative;
-  z-index: 10;
-}
-  #contact h2, #contact h4 {
-    color: #fff;
-  }
-  #contact p.sub-header {
-    color: #d1d1d1;
-  }
-  #contact span.section-header-line {
-    border-color: #838383;
-  }
-
 ul.contact-info-list {
   text-align: center;
   margin-top: 50px;
@@ -919,16 +902,52 @@ a.contact-info-text {
 }
 
 a.contact-info-text:hover {
-  color: #3c3c3c;
+  color: #E7E5DE;
 }
 
-#contact input.form-control, #contact textarea.form-control {
+/* 13. Register -------------------------------------------------- */
+
+#register {
+  background: #3c3c3c;
+  color: #fff;
+  padding: 50px 0 80px 0;
+  position: relative;
+  z-index: 10;
+}
+  #register h2, #register h4 {
+    color: #fff;
+  }
+  #register p.sub-header {
+    color: #d1d1d1;
+  }
+  #register span.section-header-line {
+    border-color: #838383;
+  }
+
+
+#register input.form-control, #register textarea.form-control {
   background: #545454;
   color: #fff !important;
   border: none;
 }
 
-.contact-form-spacer {
+#register select {
+  background-color: #545454;
+  color: #aaa;
+  border: none;
+}
+
+#register label {
+  color: #aaa;
+  font-weight: 400;
+}
+
+#newsletter {
+  margin: 0 10px;
+}
+
+
+.register-form-spacer {
   padding-bottom: 28px;
 }
 
@@ -954,11 +973,11 @@ p.copyright {
   text-align: center;
 }
 
-#contact-form button {
+#register-form button {
   background-color: #ec1556;
 }
 
-#contact-form input[type=checkbox] {
+#register-form input[type=checkbox] {
   -ms-transform: scale(2); /* IE */
   -moz-transform: scale(2); /* FF */
   -webkit-transform: scale(2); /* Safari and Chrome */
@@ -966,7 +985,7 @@ p.copyright {
   padding: 10px;
 }
 
-#contact-form .register {
+#register-form .register {
   font-size: 20px;
   color: #d1d1d1;
 }
@@ -1343,9 +1362,18 @@ textarea.form-control {
   height: 200px;
 }
 
+/* 17. Admin page -------------------------------------------------- */
 
+.admin-page {
+  margin: 50px 15px;
+}
 
-/* 17. Media queries -------------------------------------------------- */
+.admin-page th, td {
+  padding: 10px 15px;
+  border-bottom: solid 1px #aaa;
+}
+
+/* 18. Media queries -------------------------------------------------- */
 
 @media only screen and (max-width: 1300px) {
   #container {
@@ -1447,7 +1475,7 @@ textarea.form-control {
     display: none;
   }
 
-  #separator-1, #separator-2 {
+  #separator-1, #contact {
     padding-top: 20px;
   }
     

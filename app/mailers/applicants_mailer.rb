@@ -1,7 +1,7 @@
-class ContactsMailer < ApplicationMailer
+class ApplicantsMailer < ApplicationMailer
   default from: 'sharon@ironhack.com'
-  def contact_form(contact)
-    @contact = contact
+  def registration_form(applicant)
+    @applicant = applicant
     mail(to: 'sharon@ironhack.com', subject: 'Message from the Hackfest contact form')
   end
 end

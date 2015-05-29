@@ -10,6 +10,7 @@
         <li><a href="#how-it-works" data-scroll>How it works</a></li>
         <li><a href="#about" data-scroll>About us</a></li>
         <li><a href="#contact" data-scroll>Contact</a></li>
+        <li><a href="#register" data-scroll>Register</a></li>
     </ul>
 </nav>
 
@@ -49,7 +50,7 @@
 	<div class="container">
 		<p class="title">Coming Sept 2015</p>
 		<p>Hackfest is a one-day coding festival for anyone who has curiosity, creativity, and a keyboard. At the end of the day, you'll walk away with a fully functional website and all the skills you used to build it. It's completely free to attend, you just need to bring a laptop. Total beginners are totally welcome! </p>
-		<div class="button-container"><a href="#contact" class="btn btn-default btn-white">Register</a></div>
+		<div class="button-container"><a href="#register" class="btn btn-default btn-white">Register</a></div>
 	</div> <!-- end container -->
 </div> <!-- end text intro -->
 
@@ -440,9 +441,9 @@
 <!-- end sponsors ################################### -->
 
 
-<!-- separator 2 ################################### -->
+<!-- contact us ################################### -->
 
-<div id="separator-2">
+<div id="contact">
 
 			<p class="separator-title">Contact Us</p>
 			<ul class="contact-info-list list-unstyled list-inline">
@@ -463,83 +464,112 @@
 			</ul>
 </div>
 
-<!-- end separator 1 ################################### -->
+<!-- end contact-us ################################### -->
 
 
 
 <!-- contact ################################### -->
-<div id="contact">
+<div id="register">
 	<div class="container">
 		
 		<div class="section-header">
 			<span class="section-header-line"></span><p class="header-number">5</p><span class="section-header-line"></span>
 			<div class="hexagon"></div>
-			<h2>Contact Us</h2>
-			<ul class="contact-info-list list-unstyled list-inline">
-				<li>
-					<p class="contact-info-title">email</p>
-					<p><a class="contact-info-text" href="mailto:hi@ironhack.com" target="blank">hi@ironhack.com</a></p>
-				</li>
-				
-				<li>
-					<p class="contact-info-title">twitter</p>
-					<p><a class="contact-info-text" href="https://twitter.com/ironhack" target="blank">@ironhack</a></p>
-				</li>
-				
-				<li>
-					<p class="contact-info-title">visit</p>
-					<p><a class="contact-info-text" href="https://www.google.es/maps/place/MOB+(Makers+Of+Barcelona)/@41.391829,2.177191,17z/data=!3m1!4b1!4m2!3m1!1s0x12a4a2e4de683851:0xb8914736ff97cfb6?hl=en" target="blank">Calle Bailen, 11<br/>Barcelona</a></p>
-				</li>
-			</ul>
-			<p class="sub-header"> If you want to register for the event or find out more, please fill out the form below!</p>
+			<h2>Register</h2>
+			<p class="sub-header"> If you want to register for the event, please fill out the form below!</p>
 		</div> <!-- end section-header -->
 		
 		
 		<div class="row">
-			<!-- contact form begins -->
-            <div class="form-container" id="contact-form">
+			<!-- registration form begins -->
+            <div class="form-container" id="register-form">
             <% if flash[:error] %>
     					<div class="flash-error"><%= flash[:error] %></div>
   					<% end %>
-                <form accept-charset="UTF-8" action="/contacts" method="post"class="form">
+                <form accept-charset="UTF-8" action="/applicants" method="post"class="form">
                 <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
         
 <!--                     <div class="quform-inner">
                         
                         <div class="quform-elements"> -->
                         
-                        <div class="col-lg-6">
+                        <div class="col-lg-12">
 	                        <!-- begin name input element -->
 	                        <!-- <div class="quform-element quform-element-text"> -->
-	                            <div class="contact-form-spacer">
+	                            <div class="register-form-spacer">
 	                                <!-- <div class="quform-input"> -->
-	                                	<input id="name" type="text" class="form-control" name="contact[name]" placeholder="Name">
+	                                	<input id="name" type="text" class="form-control" name="applicant[name]" placeholder="Name">
 	                                <!-- </div> -->
 	                            </div>
 	                        <!-- </div> -->
 	                        <!-- end name input element -->
                         </div> <!-- end col-lg-6 -->
 	                    
-	                    <div class="col-lg-6">
+	                    <div class="col-lg-12">
 	                        <!-- begin email input element -->
-	                            <div class="contact-form-spacer">
-	                                	<input id="email" type="text" class="form-control" name="contact[email]" placeholder="Email">
+	                            <div class="register-form-spacer">
+	                                	<input id="email" type="text" class="form-control" name="applicant[email]" placeholder="Email">
 	                            </div>
 	                        <!-- end email input element -->
 	                    </div> <!-- end col-lg-6 -->
 
+	                    <div class="col-lg-12">
+	                        <!-- begin age input element -->
+	                            <div class="register-form-spacer">
+	                                	<label class="form-label" for="age">How old are you?</label>
+                                    <select name="applicant[age]" id="age" class="form-control">
+                                        <option disabled="disabled" selected="selected" value="">Choose one</option>
+                                        <option value="Under 18">Under 18</option>
+                                        <option value="18-24">18-24</option>
+                                        <option value="25-31">25-35</option>
+                                        <option value="32-38">36-50</option>
+                                        <option value="Over 50">Over 50</option>
+                                    </select>
+	                            </div>
+	                        <!-- end age input element -->
+	                    </div> <!-- end col-lg-6 -->
 
+	                    <div class="col-lg-12">
+	                        <!-- begin gender input element -->
+	                            <div class="register-form-spacer">
+	                                	<label class="form-label" for="age">What's your gender?</label>
+                                    <select name="applicant[gender]" id="age" class="form-control">
+                                        <option disabled="disabled" selected="selected" value="">Choose one</option>
+                                        <option value="female">Female</option>
+                                        <option value="male">Male</option>
+                                        <option value="other">Other</option>
+                                    </select>
+	                            </div>
+	                        <!-- end gender input element -->
+	                    </div> <!-- end col-lg-6 -->
+
+	                    <div class="col-lg-12">
+	                        <!-- begin age input element -->
+	                            <div class="register-form-spacer">
+	                                	<label class="form-label" for="interest">Why do you want to learn how to code?</label>
+                                    <select name="applicant[interest]" id="age" class="form-control">
+                                        <option disabled="disabled" selected="selected" value="">Choose one</option>
+                                        <option value="curious">I'm just curious. Seems cool.</option>
+                                        <option value="websites">I want to make websites. </option>
+                                        <option value="job">I think it will help me in my current job.</option>
+                                        <option value="pro">I want to become a professional web developer.</option>
+                                        <option value="technology">I'm generally interested in learning about technology.</option>
+                                    </select>
+	                            </div>
+	                        <!-- end age input element -->
+	                    </div> <!-- end col-lg-6 -->
 	                    
 	                    <div class="col-lg-12">
-	                        <!-- begin Textarea element -->
-	                            <div class="contact-form-spacer">
-	                                	<textarea id="message" class="form-control" name="contact[message]" placeholder="Message (optional)"></textarea>
-	                            </div>
+		                    <!-- begin Textarea element -->
+		                        <div class="register-form-spacer">
+		                            	<textarea id="background" class="form-control" name="applicant[background]" placeholder="Tell us a bit about yourself! What's your educational/professional background? Any other fun facts about you we should know?"></textarea>
+		                        </div>
+                      </div>
 	                        <!-- end Textarea element -->
 	                        
 	                    <div class="col-lg-12 register">
-	                    	<div class="contact-form-spacer text-center">
-		                    	<input id="register" class="register-checkbox" type="checkbox" name="contact[register]" value="Yes"> I want to attend Hackfest BCN. Sign me up!
+	                    	<div class="register-form-spacer text-center">
+		                    	<input id="newsletter" class="register-checkbox" type="checkbox" name="applicant[newsletter]" value="Yes"> I want get the Ironhack newsletter. Sign me up!
 	                    	</div>
 	                    </div>
 	                    
@@ -554,19 +584,13 @@
                    </div>
                 </form>
             </div>
-			<!-- contact form ends -->
+			<!-- register form ends -->
 
-
-<!-- 			<div class="map">
-				<img src="map.png" class="img-responsive" alt="" />
-
-			</div>  -->
-			
 		</div> <!-- end row -->
 		
 			
 	</div> <!-- end container -->
-</div> <!-- end contact -->
+</div> <!-- end registration -->
 
 <!-- end contact ################################### -->
 

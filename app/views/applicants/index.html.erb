@@ -1,0 +1,31 @@
+<div class="col-md-12 admin-page">
+  <h2> All applicants </h2>
+  <div class="total-applicants">
+    <p>Total applicants: <%= @total %></p>
+  </div>
+
+  <div class="all-applicants">
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Interest</th>
+        <th>Background</th>
+        <th>Delete</th>
+      </tr>
+      <% @applicants.each do |applicant| %>
+      <tr>
+        <td><%= applicant.name %></td>
+        <td><%=applicant.email%></td>
+        <td><%=applicant.age%></td>
+        <td><%=applicant.gender%></td>
+        <td><%=applicant.interest%></td>
+        <td><%=applicant.background%></td>
+        <td><%= link_to "Delete", applicant_path(applicant), method: 'delete' %></td>
+      </tr>
+    <% end %>
+    </table>
+  </div>
+</div>
