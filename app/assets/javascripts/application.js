@@ -18,7 +18,7 @@
 //= require jquery.parallax-1.1.3
 //= require bootstrap.min
 //= require pushy.min
-
 //= require smooth-scroll.min
 //= require turbolinks
+//= require validator
 //= require_tree .

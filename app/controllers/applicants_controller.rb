@@ -13,13 +13,15 @@ class ApplicantsController < ApplicationController
   def create
     @applicant = Applicant.new(applicant_params)
 
-    if @applicant.save
-      ApplicantsMailer.registration_form(@applicant).deliver_now
-      flash[:success] = "Thanks for applying for HackFest! We will send you an email to confirm your participation."
-      redirect_to root_path
-    else
-      flash[:error] = "Your message was not submitted correctly. Please try again."
-      redirect_to '/#applicant-form'
+    respond_to do |format|
+      if @applicant.save
+        # ApplicantsMailer.registration_form(@applicant).deliver_now
+        format.html { redirect_to root_path, notice: "Thanks for registering!" }
+        format.json { render json: @applicant, status: :created}
+      else
+        format.html { redirect_to root_path, notice: "Your message was not submitted correctly. Please try again." }
+        format.json { render json: @applicant.errors, status: :unprocessable_entity}
+      end
     end
   end
 

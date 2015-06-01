@@ -991,11 +991,11 @@ p.copyright {
   color: #d1d1d1;
 }
 
-#success-modal {
+#success-modal, #error-modal{
   top: 60px;
 }
 
-#success-modal h4 {
+#success-modal h4, #error-modal h4{
   color: #ec1556;
 }
 
@@ -1025,6 +1025,10 @@ p.copyright {
 #success-modal i {
   padding: 0 10px 0 0;
   color: #fff;
+}
+
+.help-block.with-errors li {
+  color: #ec1556 !important;
 }
 
 /* 13. Single project -------------------------------------------------- */

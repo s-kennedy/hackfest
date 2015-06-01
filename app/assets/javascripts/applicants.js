@@ -3,11 +3,18 @@
 
 $(function() {
 
-  $('#submit-btn').on("click", sendApplication)
+  $('#register-form').validator().on('submit', function (e) {
+    if (e.isDefaultPrevented()) {
+      errorMessage();
+    } else {
+      e.preventDefault();
+      sendApplication();
+    }
+  })
 
-  function sendApplication(event) {
+  // $('#submit-btn').on("click", sendApplication);
 
-    event.preventDefault();
+  function sendApplication() {
 
     var applicantData = {
       applicant: {
@@ -21,20 +28,27 @@ $(function() {
       }
     };
 
-    var request = $.post('/applicants', applicantData);
-    request.done(successMessage);
-    request.fail(failMessage);
+    $.ajax({
+      method: "POST",
+      url: "/applicants",
+      data: applicantData,
+      dataType: "json",
+      // beforeSend: function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').last().attr('content'))},
+      success: successMessage,
+      error: errorMessage
+    });
+
   };
 
-  function successMessage() {
+  function successMessage(res) {
+    console.log(res);
     $('#success-modal').modal();
     $('input, textarea').val('');
     $('select').val('Choose one');
-    $('input[type=checkbox]').prop("checked", false);
   };
 
-  function failMessage() {
-    console.log("faill!!!!")
+  function errorMessage() {
+    $('#error-modal').modal();
   }
 
 })
