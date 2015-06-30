@@ -15,7 +15,7 @@ class ApplicantsController < ApplicationController
 
     respond_to do |format|
       if @applicant.save
-        # ApplicantsMailer.registration_form(@applicant).deliver_now
+        # ApplicantsMailer.registration_form(@applicant).deliver_later
         format.html { redirect_to root_path, notice: "Thanks for registering!" }
         format.json { render json: @applicant, status: :created}
       else
