@@ -192,36 +192,36 @@
 			<div class="row">
 				<div class="col-lg-12">
 				
-					<h3>schedule</h3>
-					<p class="sub-header-small"> A breakdown of the festival</p>
+					<h3><%= t :schedule %></h3>
+					<p class="sub-header-small"> <%= t :schedule_subheader %></p>
 					
 					<ul class="process-list list-unstyled list-inline">
 						<li class="admin-time">
-							<p> Arrive and register </p>
+							<p> <%= t :schedule_item1 %></p>
 						</li>
 						
 						<li class="class-time">
-							<p>Class: HTML/CSS</p>
+							<p><%= t :schedule_item2 %></p>
 						</li>
 						
 						<li class="coding-time">
-							<p> Start coding!</p>
+							<p> <%= t :schedule_item3 %></p>
 						</li>
 						
 						<li class="admin-time">
-							<p>Lunch</p>
+							<p><%= t :schedule_item4 %></p>
 						</li>
 						<li class="coding-time">
-							<p>Continue group work</p>
+							<p><%= t :schedule_item5 %></p>
 						</li>
 						<li class="class-time">
-							<p>Keynote speaker </p>
+							<p><%= t :schedule_item6 %></p>
 						</li>
 						<li class="pitch-time">
-							<p>Pitch competition </p>
+							<p><%= t :schedule_item7 %> </p>
 						</li>
 						<li class="admin-time">
-							<p>Afterparty </p>
+							<p><%= t :schedule_item8 %> </p>
 						</li>
 
 					</ul>
@@ -241,9 +241,9 @@
 <!-- separator 1 ################################### -->
 
 <div id="separator-1">
-	<p class="separator-title">interested?</p>
-	<p class="separator-text"> You should be! Register for the event or contact us for more info. </p>
-	<div class="button-container"><a href="#contact" class="btn btn-default btn-white">say hey</a></div>
+	<p class="separator-title"><%= t :interested %></p>
+	<p class="separator-text"> <%= t :call_to_action %> </p>
+	<div class="button-container"><a href="#contact" class="btn btn-default btn-white"><%= t :call_to_action_button %></a></div>
 </div>
 
 <!-- end separator 1 ################################### -->
@@ -332,34 +332,11 @@
 		<div class="section-header">
 			<span class="section-header-line"></span><p class="header-number">4</p><span class="section-header-line"></span>
 			<div class="hexagon"></div>
-			<h2>about us</h2>
-			<p class="sub-header"> WeCode BCN is organized by Ironhack and Makers of Barcelona, or in other words, by people who delight in constantly finding new ways to learn and create. </p>
+			<h2><%= t :about_us %></h2>
+			<p class="sub-header"> <%= t :about_us_subheader %> </p>
 		</div> <!-- end section-header -->
 	
-	<!-- 
-		<ol class="lens-profile-timeline">
-			<li style="left: 5%;">
-				<time datetime="1970-10-29">1970</time>
-				<p>Beginning of time</p>
-			</li>
-
-			<li style="left: 45%;">
-				<time datetime="1987-01-06">1987</time>
-				<p>Sharon was born</p>
-			</li>
-			<li style="left: 75%;">
-				<time datetime="2007-01-01">2007</time>
-				<p>Something happened</p>
-			</li>
-			<li style="left: 85%;">
-				<time datetime="2011-01-01">2013</time>
-				<p>Something important</p>
-			</li>
-			<li style="right: 0;">
-				<time datetime="2013-04-02">2015</time>
-				<p>Present</p>
-			</li>
-		</ol> -->
+	
 		
 		<div class="row">
 			<div class="about-info">
@@ -369,16 +346,16 @@
 				</div> <!-- end col-lg-6 -->
 				
 				<div class="col-lg-6 col-md-6">
-					<span class="org-logo"><img src="white_logo_ironhack.png"></span><h4> Ironhack</h4>
-					<p> Ironhack offers intensive programming courses for developers and entrepreneurs. Founded in Madrid, it is also operational in Barcelona and Miami. Ironhack has reached over a thousand students through hands-on workshops and intensive bootcamp courses. The courses are career-focused and taught by professional developers, with a big emphasis on practical application and real use cases. The result is a 92% job placement rate among its graduates.</p>
+					<span class="org-logo"><img src="white_logo_ironhack.png"></span><h4><%= t :ironhack %></h4>
+					<p> <%= t :ironhack_description %></p>
 					<ul class="list-unstyled list-inline text-left">
 							<li><a href="http://ironhack.com/" target="blank"><i class="fa fa-link"></i></i></a></li>
 							<li><a href="https://twitter.com/ironhack" target="blank"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="https://www.facebook.com/theironhack" target="blank"><i class="fa fa-facebook"></i></a></li>
 					</ul>
 					
-					<h4>Makers of Barcelona</h4>
-					<p>Makers of Barcelona is a striving community of over 200 creative, innovative and business minded people, from all over the world. MOB is much more than a co-working office. With over 120 members, it provides the perfect platform from which to take a project from idea to completion, allowing you to test, prototype, market and release your project all under one roof. </p>
+					<h4><%= t :mob %></h4>
+					<p><%= t :mob_description %> </p>
 					<ul class="list-unstyled list-inline text-left">
 							<li><a href="http://www.mob-barcelona.com/" target="blank"><i class="fa fa-link"></i></i></a></li>
 							<li><a href="https://twitter.com/MOB_BCN" target="blank"><i class="fa fa-twitter"></i></a></li>
@@ -401,15 +378,15 @@
 
 <div class="sponsors">
 	<div class="container">
-		<h3>sponsors</h3>
+		<h3><%= t :sponsors %></h3>
 		
 		<div class="row">
 			
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="row">
 					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-						<h4 class="text-right">Ironhack</h4>
-						<p class="text-right">Red Five standing by. The more you tighten your grip, Tarkin, the more star systems will slip through your fingers. You mean it controls your actions?</p>
+						<h4 class="text-right"><%= t :ironhack %></h4>
+						<p class="text-right"><!-- add text here --></p>
 						<ul class="list-unstyled list-inline text-right">
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -428,8 +405,8 @@
 						<img src="logo-MOBMANok.png" class="img-responsive" alt="" />
 					</div> <!-- end col-lg-4 -->
 					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-						<h4>Makers of Barcelona</h4>
-						<p>Red Five standing by. The more you tighten your grip, Tarkin, the more star systems will slip through your fingers. You mean it controls your actions?</p>
+						<h4><%= t :mob %></h4>
+						<p><!-- add text here --></p>
 						<ul class="list-unstyled list-inline">
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -451,21 +428,21 @@
 
 <div id="contact">
 
-			<p class="separator-title">Contact Us</p>
+			<p class="separator-title"><%= t :contact_us %></p>
 			<ul class="contact-info-list list-unstyled list-inline">
 				<li>
-					<p class="contact-info-title">email</p>
-					<p><a class="contact-info-text" href="mailto:hi@ironhack.com" target="blank">hi@ironhack.com</a></p>
+					<p class="contact-info-title"><%= t :email %></p>
+					<p><a class="contact-info-text" href="mailto:hi@ironhack.com" target="blank"><%= t :ironhack_email %></a></p>
 				</li>
 				
 				<li>
-					<p class="contact-info-title">twitter</p>
-					<p><a class="contact-info-text" href="https://twitter.com/ironhack" target="blank">@ironhack</a></p>
+					<p class="contact-info-title"><%= t :twitter %></p>
+					<p><a class="contact-info-text" href="https://twitter.com/ironhack" target="blank"><%= t :ironhack_twitter %></a></p>
 				</li>
 				
 				<li>
-					<p class="contact-info-title">visit</p>
-					<p><a class="contact-info-text" href="https://www.google.es/maps/place/MOB+(Makers+Of+Barcelona)/@41.391829,2.177191,17z/data=!3m1!4b1!4m2!3m1!1s0x12a4a2e4de683851:0xb8914736ff97cfb6?hl=en" target="blank">Calle Bailen, 11<br/>Barcelona</a></p>
+					<p class="contact-info-title"><%= t :visit %></p>
+					<p><a class="contact-info-text" href="https://www.google.es/maps/place/MOB+(Makers+Of+Barcelona)/@41.391829,2.177191,17z/data=!3m1!4b1!4m2!3m1!1s0x12a4a2e4de683851:0xb8914736ff97cfb6?hl=en" target="blank"><%= t :ironhack_address1 %><br/><%= t :ironhack_address2 %></a></p>
 				</li>
 			</ul>
 </div>
@@ -481,8 +458,8 @@
 		<div class="section-header">
 			<span class="section-header-line"></span><p class="header-number">5</p><span class="section-header-line"></span>
 			<div class="hexagon"></div>
-			<h2>Register</h2>
-			<p class="sub-header"> If you want to register for the event, please fill out the form below!</p>
+			<h2><%= t :register %></h2>
+			<p class="sub-header"> <%= t :register_subheader %></p>
 		</div> <!-- end section-header -->
 		
 		
@@ -501,7 +478,7 @@
 	                        <!-- <div class="quform-element quform-element-text"> -->
 	                            <div class="register-form-spacer form-group">
 	                                <!-- <div class="quform-input"> -->
-	                                	<input id="name" type="text" class="form-control" name="applicant[name]" placeholder="Name" data-error="Please enter your name." required>
+	                                	<input id="name" type="text" class="form-control" name="applicant[name]" placeholder=<%= t :register_name %> data-error=<%= t :register_name_hint %> required>
 	                                	<div class="help-block with-errors"></div>
 	                                <!-- </div> -->
 	                            </div>
@@ -512,7 +489,7 @@
 	                    <div class="col-lg-12">
 	                        <!-- begin email input element -->
 	                            <div class="register-form-spacer form-group">
-	                                	<input id="email" type="email" class="form-control" name="applicant[email]" placeholder="Email" data-error="Please enter a valid email." required>
+	                                	<input id="email" type="email" class="form-control" name="applicant[email]" placeholder=<%= t :register_email %> data-error=<%= t :register_email_hint %> required>
 	                                	<div class="help-block with-errors"></div>
 	                            </div>
 	                        <!-- end email input element -->
@@ -521,14 +498,14 @@
 	                    <div class="col-lg-12">
 	                        <!-- begin age input element -->
 	                            <div class="register-form-spacer form-group">
-	                                	<label class="form-label" for="age">How old are you?</label>
+	                                	<label class="form-label" for="age"><%= t :register_age %></label>
                                     <select name="applicant[age]" id="age" class="form-control">
-                                        <option disabled="disabled" selected="selected" value="">Choose one</option>
-                                        <option value="Under 18">Under 18</option>
-                                        <option value="18-24">18-24</option>
-                                        <option value="25-31">25-35</option>
-                                        <option value="32-38">36-50</option>
-                                        <option value="Over 50">Over 50</option>
+                                        <option disabled="disabled" selected="selected" value=""><%= t :register_choose %></option>
+                                        <option value="Under 18"><%= t :register_age_item1 %></option>
+                                        <option value="18-24"><%= t :register_age_item2 %></option>
+                                        <option value="25-31"><%= t :register_age_item3 %></option>
+                                        <option value="32-38"><%= t :register_age_item4 %></option>
+                                        <option value="Over 50"><%= t :register_age_item5 %></option>
                                     </select>
 	                            </div>
 	                        <!-- end age input element -->
@@ -537,12 +514,12 @@
 	                    <div class="col-lg-12">
 	                        <!-- begin gender input element -->
 	                            <div class="register-form-spacer form-group">
-	                                	<label class="form-label" for="gender">What's your gender?</label>
+	                                	<label class="form-label" for="gender"> <%= t :register_gender %></label>
                                     <select name="applicant[gender]" id="age" class="form-control">
-                                        <option disabled="disabled" selected="selected" value="">Choose one</option>
-                                        <option value="female">Female</option>
-                                        <option value="male">Male</option>
-                                        <option value="other">Other</option>
+                                        <option disabled="disabled" selected="selected" value=""><%= t :register_choose %></option>
+                                        <option value="female"><%= t :register_gender_item1 %></option>
+                                        <option value="male"><%= t :register_gender_item2 %></option>
+                                        <option value="other"><%= t :register_gender_item3 %></option>
                                     </select>
 	                            </div>
 	                        <!-- end gender input element -->
@@ -551,14 +528,14 @@
 	                    <div class="col-lg-12">
 	                        <!-- begin interest input element -->
 	                            <div class="register-form-spacer form-group">
-	                                	<label class="form-label" for="interest">Why do you want to learn how to code?</label>
-                                    <select name="applicant[interest]" id="age" class="form-control" data-error="Please fill out this field."required>
-                                        <option disabled="disabled" selected="selected" value="">Choose one</option>
-                                        <option value="curious">I'm just curious. Seems cool.</option>
-                                        <option value="websites">I want to make websites. </option>
-                                        <option value="job">I think it will help me in my current job.</option>
-                                        <option value="pro">I want to become a professional web developer.</option>
-                                        <option value="technology">I'm generally interested in learning about technology.</option>
+	                                	<label class="form-label" for="interest"><%= t :register_interest %></label>
+                                    <select name="applicant[interest]" id="age" class="form-control" data-error=<%= t :register_data_error %>required>
+                                        <option disabled="disabled" selected="selected" value=""><%= t :register_choose %></option>
+                                        <option value="curious"><%= t :register_interest_item1 %></option>
+                                        <option value="websites"><%= t :register_interest_item2 %></option>
+                                        <option value="job"><%= t :register_interest_item3 %></option>
+                                        <option value="pro"><%= t :register_interest_item4 %></option>
+                                        <option value="technology"><%= t :register_interest_item5 %></option>
                                     </select>
                                     <div class="help-block with-errors"></div>
 	                            </div>
@@ -568,7 +545,7 @@
 	                    <div class="col-lg-12">
 		                    <!-- begin Interest element -->
 		                        <div class="register-form-spacer form-group">
-	                            	<textarea id="background" class="form-control" name="applicant[background]" placeholder="Tell us a bit about yourself! What's your educational/professional background? Any other fun facts about you we should know?" data-error="Please fill out this field."required></textarea>
+	                            	<textarea id="background" class="form-control" name="applicant[background]" placeholder=<%= "#{ t :register_background }" %> data-error="Please fill out this field." required></textarea>
 				                        <div class="help-block with-errors"></div>
 		                        </div>
                       </div>
@@ -576,13 +553,13 @@
 	                        
 	                    <div class="col-lg-12 register">
 	                    	<div class="register-form-spacer text-center">
-		                    	<input id="newsletter" class="register-checkbox" type="checkbox" name="applicant[newsletter]" value="newsletter" checked> I want get the Ironhack newsletter. Sign me up!
+		                    	<input id="newsletter" class="register-checkbox" type="checkbox" name="applicant[newsletter]" value="newsletter" checked> <%= t :newsletter %>
 	                    	</div>
 	                    </div>
 	                    
 	                        <!-- begin Submit button -->
 	                        		<div class="text-center">
-	                                <button class="btn btn-default" type="submit" value="Send" id="submit-btn"><span>Send</span></button>
+	                                <button class="btn btn-default" type="submit" value="Send" id="submit-btn"><span><%= t :send %></span></button>
 	                            </div>
 	                        <!-- end Submit button -->
 	                    </div> <!-- end col-lg-12 -->
@@ -599,26 +576,26 @@
 			    <div class="modal-content">
 			      <div class="modal-header">
 			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title">Thanks for registering!</h4>
+			        <h4 class="modal-title"><%= t :confirmation_thankyou %></h4>
 			      </div>
 			      <div class="modal-body">
-			        <p>We'll email you soon with more information about the event and what to expect. You're on your way to coding your first website!</p>
-			        <p>Tell everyone you know.</p>
+			        <p><%= t :confirmation_message %></p>
+			        <p><%= t :confirmation_message2 %></p>
 			        <!-- social share buttons -->
 			        <ul class="list-unstyled list-inline">
 			        	<li>
-				        	<a href="mailto:?subject=I%27m%20going%20to%20WeCode%20BCN!;body=I%20just%20signed%20up%20to%20learn%20web%20development%20at%20WeCode%20BCN!%20https%3A%2F%2Ftodaywecode.org%2F">
-					        	<button class="btn btn-email"><i class="fa fa-envelope"></i>Email</button>
+				        	<a href=<%= t :share_email %>>
+					        	<button class="btn btn-email"><i class="fa fa-envelope"></i><%= t :email %></button>
 				        	</a>
 			        	</li>
 			        	<li>
 				        	<a href="https://www.facebook.com/sharer/sharer.php?u=https://todaywecode.org/" target="_blank">
-					        	<button class="btn btn-fb"><i class="fa fa-facebook"></i>Facebook</button>
+					        	<button class="btn btn-fb"><i class="fa fa-facebook"></i><%= t :facebook %></button>
 				        	</a>
 			        	</li>
 			        	<li>
-				        	<a href="http://twitter.com/home?status=I%27m%20going%20to%20WeCode%20BCN!%20with%20%40MOB_BCN%20%40Ironhack%20https%3A%2F%2Ftodaywecode.org" target="_blank">
-					        	<button class="btn btn-twitter"><i class="fa fa-twitter"></i>Twitter</button>
+				        	<a href=<%= t :share_twitter %> target="_blank">
+					        	<button class="btn btn-twitter"><i class="fa fa-twitter"></i><%= t :twitter %></button>
 				        	</a>
 			        	</li>
 			        </ul>
@@ -626,7 +603,7 @@
 			        <!-- end social share buttons -->		      
 			      </div>
 			      <div class="modal-footer">
-			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-default" data-dismiss="modal"><%= t :close %></button>
 			      </div>
 			    </div><!-- /.modal-content -->
 			  </div><!-- /.modal-dialog -->
@@ -638,13 +615,13 @@
 			    <div class="modal-content">
 			      <div class="modal-header">
 			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title">Oops!</h4>
+			        <h4 class="modal-title"><%= t :confirmation_fail_title %></h4>
 			      </div>
 			      <div class="modal-body">
-			        <p>Your form was not submitted. Please make sure all the fields are filled in correctly.</p>
+			        <p><%= t :confirmation_fail_body %></p>
 			      </div>
 			      <div class="modal-footer">
-			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-default" data-dismiss="modal"><%= t :close %></button>
 			      </div>
 			    </div><!-- /.modal-content -->
 			  </div><!-- /.modal-dialog -->
@@ -659,7 +636,7 @@
 <!-- end contact ################################### -->
 
 
-<p class="copyright">2015 Ironhack. All rights reserved</p>
+<p class="copyright">2015 Ironhack</p>
 
 </div> <!-- end #container & animsition -->
 

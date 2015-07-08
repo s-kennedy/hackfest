@@ -8,6 +8,8 @@ es:
   about_us: "Quíenes somos"
   contact: "Contacto"
   register: "Inscríbe-te"
+  schedule: "Horario"
+  sponsors: "Patrocinados"
 
 # --------------- Intro -----------------
   coming_soon: "Proximadamente en Oct 2015"
@@ -44,3 +46,89 @@ es:
   how_it_works_item4_description: "Más allá de aprender y practicar el codigo, acabamos el día con un 'pitch competition'. Al final del día, tu equipo habrá creado una web entera que podréis presentar en competición para ganar premios chulos. Y claro, no lo podríamos llamarlo un festival si no teníamos un afterparty!"
   how_it_works_item4_bullet1: "pitches/premios"
   how_it_works_item4_bullet2: "afterparty!"
+
+# ---------------  Schedule -----------------
+
+  schedule_subheader: "Un resumen del festival"
+  schedule_item1: "Llegada y inscripción"
+  schedule_item2: "Curso: HTML/CSS"
+  schedule_item3: "Empezar a programar!"
+  schedule_item4: "Hora de comer"
+  schedule_item5: "Seguir trabajor en equipo"
+  schedule_item6: "Orador invitado"
+  schedule_item7: "Competición de pitches"
+  schedule_item8: "Afterparty"
+
+# ---------------  Separator -----------------
+
+  interested: "Te interesa?"
+  call_to_action: "¡Claro que sí! Inscríbe-te ya o ponte en contacto con nosotros si quieres saber más."
+  call_to_action_button: "Contacte-nos"
+
+# ---------------  About us -----------------
+
+  about_us_subheader: "WeCodeBCN está organizado por Ironhack y Makers of Barcelona, es decir, por gente que le encanta buscar nuevas maneras de aprender y crear."
+  ironhack: "Ironhack"
+  ironhack_description: "Ironhack brinda cursos intensivos de programación para desarrolladores y emprendedores. Fundado en Madrid, ahora es operativo también en Barcelona y Miami. Ironhack ha tocado a más de mil estudiantes a través de talleres practicas y cursos intensivos ('bootcamps'). Los cursos se focalizan en mejorar su trayectoria profesional y los profesores son desarrolladores profesionales. El emfásis es sobre la pratica y casos de uso reales. El resultado es una tasa de 92% de ubicación en puestos de trabajo para los diplomados de Ironhack."
+  mob: "Makers of Barcelona (MOB)"
+  mob_description: "Makers of Barcelona es un a comunidad dinamica de más de 200 personas creativas, inovadoras, y con el espiritu de emprendedor. MOB es mucho más de un coworking. Con mas de 120 miembros, ofrece la plataforma perfecta para impular un proyecto desde la concepción hasta la terminación. Te permite hacer pruebas, prototypos, marketing, y lanzamiento de tu proyecto todo bajo un sólo techo."
+
+# ---------------  Sponsors -----------------
+
+
+# ---------------  Contact -----------------
+
+  email: "Correo"
+  twitter: "Twitter"
+  visit: "Ubicación"
+  ironhack_email: "hi@ironhack.com"
+  ironhack_twitter: "@ironhack"
+  ironhack_address1: "Calle Bailén, 11"
+  ironhack_address2: "Barcelona"
+
+
+# ---------------  Register -----------------
+
+  register_subheader: "Rellena el formulario aquí abajo para inscribir-te al evento"
+  register_name: "Nombre"
+  register_name_hint: "Como te llamas?"
+  register_email: "Correo"
+  register_email_hint: "Escribe tu correo"
+  register_age: "Que edad teines?"
+  register_choose: "Elige uno"
+  register_data_error: "Rellena este campo, por favor"
+  register_age_item1: "Menos de 18"
+  register_age_item2: "18 - 24"
+  register_age_item3: "25 - 35"
+  register_age_item4: "36 - 50"
+  register_age_item5: "Más de 50"
+  register_gender: "Cual es tu genero?"
+  register_gender_item1: "Mujer"
+  register_gender_item2: "Hombre"
+  register_gender_item3: "Otro"
+  register_interest: "Porqué queires aprender la programación?"
+  register_interest_item1: "Por curiosidad. Parece interesante."
+  register_interest_item2: "Quiero hacer webs."
+  register_interest_item3: "Creo que me ayudara en mi trabajo actual."
+  register_interest_item4: "Quiero ser programador profesional."
+  register_interest_item5: "En general me interesa la tecnología."
+  register_background: "Cuenta-nos algo sobre ti! Cual es tu experiencia laboral o educativa? Algún otro hecho interesante que quieres compartir?"
+  newsletter: "Quiero recibir el boletín informativo. ¡Apunta-me!"
+  send: "Enviar"
+
+# ---------------  Confirmation modal -----------------
+
+  confirmation_thankyou: "Gracias por tu inscripción!"
+  confirmation_message: "Estaremos en contact con más información del evento y que esperar. Estás en el camino para programar tu primer web!"
+  confirmation_message2: "Avisa a todo el mundo!"
+  share_email: "mailto:?subject=I%27m%20going%20to%20WeCode%20BCN!;body=I%20just%20signed%20up%20to%20learn%20web%20development%20at%20WeCode%20BCN!%20https%3A%2F%2Ftodaywecode.org%2F"
+  share_twitter: "http://twitter.com/home?status=I%27m%20going%20to%20WeCode%20BCN!%20with%20%40MOB_BCN%20%40Ironhack%20https%3A%2F%2Ftodaywecode.org"
+  facebook: "Facebook"
+  close: "Cerrar"
+  confirmation_fail_title: "¡Ups!"
+  confirmation_fail_body: "Tu formulario no se evió. Por favor, confirma que todos los campos estan rellenados correctamente. "
+
+
+
+
+
