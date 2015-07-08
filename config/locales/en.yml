@@ -1,23 +1,46 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+
+# --------------- Menu / Section titles ------------------
+
+  home: "Home"
+  why_code: "Why code?"
+  how_it_works: "How it works"
+  about_us: "About us"
+  contact: "Contact"
+  register: "Register"
+
+# --------------- Intro -----------------
+  coming_soon: "Coming Oct 2015"
+  intro_text: "WeCode BCN is a one-day coding festival for anyone who has curiosity, creativity, and a keyboard. At the end of the day, you'll walk away with a fully functional website and all the skills you used to build it. It's completely free to attend, you just need to bring a laptop. Total beginners are totally welcome!"
+  register: "Register"
+
+# ---------------  Why Code -----------------
+
+  why_code_subheader: "If you're interested in learning web development, WeCode BCN is a fun and low-risk way to try out a potential new career path. Here's why we think it's worth a shot."
+  why_code_item1: "Programmers are in high demand."
+  why_code_item2: "nyone can learn the basics."
+  why_code_item3: "It's fun! So. Much. Fun."
+  read_more: "Read more"
+
+# ---------------  How it works -----------------
+
+  how_it_works_subheader: "What can you expect at Barcelona's first ever coding festival?"
+  how_it_works_item1_title: "classes"
+  how_it_works_item1_description: "You'll get a crash course in web development, starting with beginner classes in HTML and CSS. You will work with a teaching assistant who can answer your questions. Don't depend on the classes too much though; this is a different way to learn. We teach you how to teach yourself."
+  how_it_works_item1_bullet1: "html"
+  how_it_works_item1_bullet2: "css"
+
+  how_it_works_item2_title: "projects"
+  how_it_works_item2_description: "We believe in learning by doing. You'd be surprised how quickly you can learn to write your first lines of code. You and your team will choose a project brief and complete the project by the end of the day. Each team member codes part of the final project. Your team will have a teaching assistant to answer questions and keep you on track."
+  how_it_works_item2_bullet1: "real code"
+  how_it_works_item2_bullet2: "creative projects"
+
+  how_it_works_item3_title: "people"
+  how_it_works_item3_description: "You'll meet like-minded people who are also interested in learning to code, especially in your team. This event is for beginners, so there will be people from many different backgrounds. What we all have in common is an open mind with a passion for creating. Throughout the day, you'll be collaborating with a small team to create a website."
+  how_it_works_item3_bullet1: "200+ participants"
+  how_it_works_item3_bullet2: "Teams of 10"
+
+  how_it_works_item4_title: "fun"
+  how_it_works_item4_description: "In addition to learning and practicing code, you can look forward to an exciting pitch competition. By the end of the day, your team will have coded a full website which you can present for the chance to win with some sweet prizes. And of course, what kind of festival would it be without an afterparty?"
+  how_it_works_item4_bullet1: "pitches/prizes"
+  how_it_works_item4_bullet2: "afterparty!"

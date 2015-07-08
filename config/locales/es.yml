@@ -1,0 +1,46 @@
+es:
+
+# --------------- Menu ------------------
+
+  home: "Inicio"
+  why_code: "Porqué programar?"
+  how_it_works: "Como funciona"
+  about_us: "Quíenes somos"
+  contact: "Contacto"
+  register: "Inscríbe-te"
+
+# --------------- Intro -----------------
+  coming_soon: "Proximadamente en Oct 2015"
+  intro_text: "WeCode BCN es un festival de un día para cualquier que tiene la curiosiadad, motivación, y un teclado. Al cabo del día, te marcharas con un a web que funciona y todas las herramientas y conocimentos que te hacia falta para crearla. La participación es gratuita, simplemente trae un portátil. ¡Principiantes totales son totalemente bienvenidos!"
+  register: "Inscríbe-te"
+
+# ---------------  Why Code -----------------
+
+  why_code_subheader: "Si te interesa divulgar el desarrollo web, WeCodeBCN es una manera divertida y fácil para explorar una nueva trayectoria laboral potencial. Aquí tienes tres motivos por los cuales creemos que vale la pena intentar:"
+  why_code_item1: "Hay una demanda alta para los programadores."
+  why_code_item2: "Cualquier es capaz de aprender lo básico"
+  why_code_item3: "¡Es divertido - de verdad, divertidísimo!"
+  read_more: "Leer más"
+
+# ---------------  How it works -----------------
+
+  how_it_works_subheader: "Que puedes esperar del primer festival de coding en Barcelona?"
+  how_it_works_item1_title: "Clases"
+  how_it_works_item1_description: "Vas a hacer un 'crash course' de desarrollo web, empezando por clases para principiantes de HTML y CSS. Vas a colaborar con un instructor que contestará a tus preguntas. Pero no te fixes demasiado en las clases - esto es otra manera de aprender. Te enseñamos a enseñar a tu mismo."
+  how_it_works_item1_bullet1: "html"
+  how_it_works_item1_bullet2: "css"
+
+  how_it_works_item2_title: "proyectos"
+  how_it_works_item2_description: "Creemos en aprender por hacer. Te sorprenderá que rápido lograrás a escribir tu primera línea de codigo. Tú y tu equipo vaís a elegir un informe de proyecto de un a empresa real y desempeñar el proyecto durante el día. Cada miembro del equipo escribe parte del proyecto final. Cada equipo tendrá un instructor para contestar a las preguntas y asegurar que el proyecto va bien."
+  how_it_works_item2_bullet1: "Codigo real"
+  how_it_works_item2_bullet2: "Proyectos creativos"
+
+  how_it_works_item3_title: "gente"
+  how_it_works_item3_description: "Cononcerás a gente como tu - interesados en aprender el codigo, sobre todo en tu equipo. A lo largo del día, vas a colaborar con un equipo pequeño para crear una web. Este evento es para principiantes, entonces habrá gente de muchos entornos distintos. Lo que tenemos todos en común es la mente abierta y una pasión para crear."
+  how_it_works_item3_bullet1: "200+ participantes"
+  how_it_works_item3_bullet2: "Equipos de 10"
+
+  how_it_works_item4_title: "Diversión"
+  how_it_works_item4_description: "Más allá de aprender y practicar el codigo, acabamos el día con un 'pitch competition'. Al final del día, tu equipo habrá creado una web entera que podréis presentar en competición para ganar premios chulos. Y claro, no lo podríamos llamarlo un festival si no teníamos un afterparty!"
+  how_it_works_item4_bullet1: "pitches/premios"
+  how_it_works_item4_bullet2: "afterparty!"

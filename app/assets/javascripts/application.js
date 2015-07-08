@@ -19,6 +19,5 @@
 //= require bootstrap.min
 //= require pushy.min
 //= require smooth-scroll.min
-//= require turbolinks
 //= require validator
 //= require_tree .

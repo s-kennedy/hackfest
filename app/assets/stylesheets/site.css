@@ -283,15 +283,19 @@ header {
     text-decoration: none;
   }
 
-.menu-btn {
+.menu-right {
   font-size: 26px;
   text-align: right;
   position: relative;
   right: 70px;
 }
-  .menu-btn:hover {
+  .menu-right:hover {
     cursor: pointer;
   }
+
+.menu-btn {
+  padding-left: 10px
+}
 
 
 
@@ -324,10 +328,14 @@ header {
 }
 
 .left-half {
-  background: rgba(199, 2, 48, 0.6);
   text-align: right;
 }
-  .left-half h1 {
+
+.right-half {
+  background: rgba(199, 2, 48, 0.6);
+  text-align: left;
+}
+  .right-half h1 {
     color: #fff;
     right: 0;
   }

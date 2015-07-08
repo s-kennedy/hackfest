@@ -5,12 +5,12 @@
 <nav class="pushy pushy-right">
     <ul class="list-unstyled">
 	    <li><a href="#">X</a></li>
-	    <li class='current'><a class='current' href="index.html" data-scroll>Home</a></li>
-        <li><a href="#why-code" data-scroll>Why code</a></li>
-        <li><a href="#how-it-works" data-scroll>How it works</a></li>
-        <li><a href="#about" data-scroll>About us</a></li>
-        <li><a href="#contact" data-scroll>Contact</a></li>
-        <li><a href="#register" data-scroll>Register</a></li>
+	    <li class='current'><a class='current' href="index.html" data-scroll><%= t :home %></a></li>
+        <li><a href="#why-code" data-scroll><%= t :why_code %></a></li>
+        <li><a href="#how-it-works" data-scroll><%= t :how_it_works %></a></li>
+        <li><a href="#about" data-scroll><%= t :about_us %></a></li>
+        <li><a href="#contact" data-scroll><%= t :contact %></a></li>
+        <li><a href="#register" data-scroll><%= t :register %></a></li>
     </ul>
 </nav>
 
@@ -24,13 +24,18 @@
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 				<div class="logo">
 					<a href="#intro" data-scroll>
-						<img src="hackfestlogo.png" alt="Hackfest" height="40px" width="auto">
+						<img src="hackfestlogo.png" alt="WeCodeBCN" height="40px" width="auto">
 					</a>
 				</div>
 			</div> <!-- end col-lg-6 -->
 		
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-				<div class="menu-btn">&#9776;</div>
+					
+				<div class="menu-right">
+					<a href="/en">en</a>
+					<a href="/es">es</a>
+					<span class="menu-btn">&#9776;</span>
+				</div>
 			</div> <!-- end col-lg-6 -->
 		</div> <!-- end row -->
 	</div> <!-- end container-fuid -->
@@ -45,14 +50,14 @@
 <!-- intro ################################### -->
 
 <div id="intro">
-	<div class="left-half"><h1>Hack</h1></div><div class="right-half"><h1>Fest</h1></div>
+	<div class="left-half"><h1>We </h1></div><div class="right-half"><h1>Code</h1></div>
 </div> <!-- end intro -->
 
 <div class="text-intro">
 	<div class="container">
-		<p class="title">Coming Oct 2015</p>
-		<p>Hackfest is a one-day coding festival for anyone who has curiosity, creativity, and a keyboard. At the end of the day, you'll walk away with a fully functional website and all the skills you used to build it. It's completely free to attend, you just need to bring a laptop. Total beginners are totally welcome! </p>
-		<div class="button-container"><a href="#register" class="btn btn-default btn-white">Register</a></div>
+		<p class="title"><%= t :coming_soon %></p>
+		<p><%= t :intro_text %> </p>
+		<div class="button-container"><a href="#register" class="btn btn-default btn-white"><%= t :register %></a></div>
 	</div> <!-- end container -->
 </div> <!-- end text intro -->
 
@@ -68,8 +73,8 @@
 		<div class="section-header">
 			<span class="section-header-line"></span><p class="header-number">1</p><span class="section-header-line"></span>
 			<div class="hexagon"></div>
-			<h2> why code? </h2>
-			<p class="sub-header"> If you're interested in learning web development, HackFest is a fun and low-risk way to try out a potential new career path. Here's why we think it's worth a shot. </p>
+			<h2> <%= t :why_code %> </h2>
+			<p class="sub-header"> <%= t :why_code_subheader %> </p>
 		</div> <!-- end section-header -->
 		
 		<div class="row">
@@ -78,8 +83,8 @@
 				<div class="news news-1">
 					<a href="http://blog.ironhack.com/2015/01/10-reasons-learn-to-code-infographic/" target="blank">
 						<div class="news-content">
-							<p class="news-title"> Programmers are in high demand. </p>
-							<p class="news-read-more"> read more</p>
+							<p class="news-title"> <%= t :why_code_item1 %> </p>
+							<p class="news-read-more"> <%= t :read_more %></p>
 						</div> <!-- news-content -->
 					</a>
 				</div> <!-- end news -->
@@ -89,8 +94,8 @@
 				<div class="news news-2">
 					<a href="http://blog.ironhack.com/2013/11/start-learning-how-to-code-now-for-free/" target="blank">
 						<div class="news-content">
-							<p class="news-title"> Anyone can learn the basics. </p>
-							<p class="news-read-more">read more</p>
+							<p class="news-title"> <%= t :why_code_item2 %> </p>
+							<p class="news-read-more"><%= t :read_more %></p>
 						</div> <!-- news-content -->
 					</a>
 				</div> <!-- end news -->
@@ -100,8 +105,8 @@
 				<div class="news news-3">
 					<a href="http://blog.ironhack.com/2015/03/study-abroad-and-code-in-spain/" target="blank">
 						<div class="news-content">
-							<p class="news-title"> It's fun! <br> So. Much. Fun. </p>
-							<p class="news-read-more">read more</p>
+							<p class="news-title"> <%= t :why_code_item3 %>  </p>
+							<p class="news-read-more"><%= t :read_more %></p>
 						</div> <!-- news-content -->
 					</a>
 				</div> <!-- end news -->
@@ -115,27 +120,27 @@
 
 
 
-<!-- services ################################### -->
+<!-- How it works ################################### -->
 
 <div id="how-it-works">
 	<div class="container">
 		<div class="section-header">
 			<span class="section-header-line"></span><p class="header-number">2</p><span class="section-header-line"></span>
 			<div class="hexagon"></div>
-			<h2>How it works</h2>
-			<p class="sub-header"> What can you expect at Barcelona's first ever Hackfest? </p>
+			<h2><%= t :how_it_works %></h2>
+			<p class="sub-header"> <%= t :how_it_works_subheader %> </p>
 		</div> <!-- end section-header -->
 		
 		<div class="row">
 			
 			<div class="col-lg-6 col-md-6">
 				<div class="service-type">
-					<p class="service-type-title">classes</p>
-					<p class="service-type-text"> You'll get a crash course in web development, starting with beginner classes in HTML and CSS. You will work with a teaching assistant who can answer your questions. Don't depend on the classes too much though; this is a different way to learn. We teach you how to teach yourself.</p>
+					<p class="service-type-title"><%= t :how_it_works_item1_title %></p>
+					<p class="service-type-text"> <%= t :how_it_works_item1_description %></p>
 					
 					<ul class="right-list list-unstyled">
-						<li>html/css</li>
-						<li>javascript</li>
+						<li><%= t :how_it_works_item1_bullet1 %></li>
+						<li><%= t :how_it_works_item1_bullet2 %></li>
 					</ul>
 					<div class="service-type-number">01</div>
 				</div>
@@ -143,12 +148,12 @@
 			
 			<div class="col-lg-6 col-md-6">
 				<div class="service-type">
-					<p class="service-type-title">projects</p>
-					<p class="service-type-text"> We believe in learning by doing. You'd be surprised how quickly you can learn to write your first lines of code. You and your team will choose a project brief and complete the project by the end of the day. Each team member codes part of the final project. Your team will have a teaching assistant to answer questions and keep you on track. </p>
+					<p class="service-type-title"><%= t :how_it_works_item2_title %></p>
+					<p class="service-type-text"> <%= t :how_it_works_item2_description %> </p>
 					
 					<ul class="right-list list-unstyled">
-						<li>real code</li>
-						<li>creative projects</li>
+						<li><%= t :how_it_works_item2_bullet1 %></li>
+						<li><%= t :how_it_works_item2_bullet2 %></li>
 					</ul>
 					<div class="service-type-number">02</div>
 				</div>
@@ -156,12 +161,12 @@
 			
 			<div class="col-lg-6 col-md-6">
 				<div class="service-type">
-					<p class="service-type-title">people</p>
-					<p class="service-type-text"> You'll meet like-minded people who are also interested in learning to code, especially in your team. This event is for beginners, so there will be people from many different backgrounds. What we all have in common is an open mind with a passion for creating. Throughout the day, you'll be collaborating with a small team to create a website. </p>
-
+					<p class="service-type-title"><%= t :how_it_works_item3_title %></p>
+					<p class="service-type-text"> <%= t :how_it_works_item3_description %> </p>
+					
 					<ul class="right-list list-unstyled">
-						<li>200+ participants</li>
-						<li>Teams of 10</li>
+						<li><%= t :how_it_works_item3_bullet1 %></li>
+						<li><%= t :how_it_works_item3_bullet2 %></li>
 					</ul>
 					<div class="service-type-number">03</div>
 				</div>
@@ -169,13 +174,12 @@
 			
 			<div class="col-lg-6 col-md-6">
 				<div class="service-type">
-					<p class="service-type-title">fest</p>
-					<p class="service-type-text"> In addition to learning and practicing code, you can look forward to an exciting pitch competition. By the end of the day, your team will have coded a full website which you can present for the chance to win with some sweet prizes. And of course, what kind of festival would it be without an afterparty? </p>
-				
+					<p class="service-type-title"><%= t :how_it_works_item4_title %></p>
+					<p class="service-type-text"> <%= t :how_it_works_item4_description %> </p>
 					
 					<ul class="right-list list-unstyled">
-						<li>pitches/prizes</li>
-						<li>afterparty!</li>
+						<li><%= t :how_it_works_item4_bullet1 %></li>
+						<li><%= t :how_it_works_item4_bullet2 %></li>
 					</ul>
 					<div class="service-type-number">04</div>
 				</div>
@@ -329,7 +333,7 @@
 			<span class="section-header-line"></span><p class="header-number">4</p><span class="section-header-line"></span>
 			<div class="hexagon"></div>
 			<h2>about us</h2>
-			<p class="sub-header"> HackFest is organized by Ironhack and Makers of Barcelona, or in other words, by people who delight in constantly finding new ways to learn and create. </p>
+			<p class="sub-header"> WeCode BCN is organized by Ironhack and Makers of Barcelona, or in other words, by people who delight in constantly finding new ways to learn and create. </p>
 		</div> <!-- end section-header -->
 	
 	<!-- 
@@ -603,17 +607,17 @@
 			        <!-- social share buttons -->
 			        <ul class="list-unstyled list-inline">
 			        	<li>
-				        	<a href="mailto:?subject=I%27m%20going%20to%20Hackfest!;body=I%20just%20signed%20up%20to%20learn%20web%20development%20at%20Hackfest!%20https%3A%2F%2Fhackfestbcn.herokuapp.com%2F">
+				        	<a href="mailto:?subject=I%27m%20going%20to%20WeCode%20BCN!;body=I%20just%20signed%20up%20to%20learn%20web%20development%20at%20WeCode%20BCN!%20https%3A%2F%2Ftodaywecode.org%2F">
 					        	<button class="btn btn-email"><i class="fa fa-envelope"></i>Email</button>
 				        	</a>
 			        	</li>
 			        	<li>
-				        	<a href="https://www.facebook.com/sharer/sharer.php?u=https://hackfestbcn.herokuapp.com/" target="_blank">
+				        	<a href="https://www.facebook.com/sharer/sharer.php?u=https://todaywecode.org/" target="_blank">
 					        	<button class="btn btn-fb"><i class="fa fa-facebook"></i>Facebook</button>
 				        	</a>
 			        	</li>
 			        	<li>
-				        	<a href="http://twitter.com/home?status=I%27m%20going%20to%20Hackfest!%20with%20%40MOB_BCN%20%40Ironhack%20https%3A%2F%2Fhackfestbcn.herokuapp.com" target="_blank">
+				        	<a href="http://twitter.com/home?status=I%27m%20going%20to%20WeCode%20BCN!%20with%20%40MOB_BCN%20%40Ironhack%20https%3A%2F%2Ftodaywecode.org" target="_blank">
 					        	<button class="btn btn-twitter"><i class="fa fa-twitter"></i>Twitter</button>
 				        	</a>
 			        	</li>
