@@ -1,0 +1,129 @@
+ca:
+
+# --------------- Menu ------------------
+
+  home: "Inici"
+  why_code: "Perquè programar?"
+  how_it_works: "Com funciona"
+  about_us: "Qui som"
+  contact: "Contacte"
+  register: "Inscriu-te"
+  schedule: "Horari"
+  sponsors: "Patrocinadors"
+
+# --------------- Intro -----------------
+  coming_soon: "Pròximament en Oct 2015"
+  intro_text: "WeCodeBCN és un festival de un dia per a qualsevol persona amb curiositat, motivació i un ordenador. Al final del dia, marxaràs cap a casa amb una web funcional i totes les eines i coneixements necessaris per crear-la. La participació és gratuïta, tan sols fa falta que portis el portàtil. Principiants Benginguts!"
+  register: "Inscriu-te"
+
+# ---------------  Why Code -----------------
+
+  why_code_subheader: "Si t'interessa divulgar el desenvolupament web, WeCodeBCN és una manera fàcil i divertida per explorar una nova trajectòria professional. Aquí tens tres motius per els quals creiem que val la pena intentar-ho:"
+  why_code_item1: "Hi ha una demanda molt alta de programadors"
+  why_code_item2: "Qualsevol pot aprendre a programar"
+  why_code_item3: "¡Es divertit - de veritat, divertidíssim!"
+  read_more: "Llegir més"
+
+# ---------------  How it works -----------------
+
+  how_it_works_subheader: "Què pots esperar del primer festival de 'coding' de Barcelona?"
+  how_it_works_item1_title: "Classes"
+  how_it_works_item1_description: "Faràs un 'crash course' de desenvolupament web, començant per classes per a principiants de HTML i CSS. Col·laboraràs amb un instructor que respondrà a les teves preguntes. Però no et fixis massa en les classes - aquí aprenem d'una altra manera. T'ensenyarem com aprendre per tu sol."
+  how_it_works_item1_bullet1: "html"
+  how_it_works_item1_bullet2: "css"
+
+  how_it_works_item2_title: "Projectes"
+  how_it_works_item2_description: "Nosaltre creiem en aprendre creant. Te sorprendrà lo ràpid que arribaràs a escriure la teva primera línea de codi. Tu i el teu equip elegireu un projecte d'una empresa real i construireu el projecte durant el dia. Cada membre de l'equip farà una part del projecte final. Cada equip dispondrà d'un instructor per contestar les preguntes i assegurar que el projecte acaba correctament."
+  how_it_works_item2_bullet1: "Codi real"
+  how_it_works_item2_bullet2: "Projectes creatius"
+
+  how_it_works_item3_title: "Persones"
+  how_it_works_item3_description: "Coneixeràs a gent com tu - interessats en aprendre a programar. Durant tot el dia, colaboraràs amb el teu equip per crear una web. Aquest event va dirigit a participants, hi haurà gent de tots els sector. El que tendreu tots en comú será una ment oberta i passió per crear."
+  how_it_works_item3_bullet1: "200+ participants"
+  how_it_works_item3_bullet2: "Equips de 10"
+
+  how_it_works_item4_title: "Diversió"
+  how_it_works_item4_description: "Més allà d'aprendre i practicar programació, el dia acabarà amb un 'pithc competition'. Al final del dia, el teu equip haurà creat una web sencera que podreu presentar al concurs per tal de guanyar premis. A més a més, no podriem dir 'festival' si no hi hagués una festa!"
+  how_it_works_item4_bullet1: "pitches/premis"
+  how_it_works_item4_bullet2: "festa!"
+
+# ---------------  Schedule -----------------
+
+  schedule_subheader: "Resum del festival"
+  schedule_item1: "Arribada i inscripció"
+  schedule_item2: "Curs: HTML/CSS"
+  schedule_item3: "Començar a programar!"
+  schedule_item4: "Hora de dinar"
+  schedule_item5: "Treball en equip"
+  schedule_item6: "'Speaker' convidat"
+  schedule_item7: "Concurs de pitches"
+  schedule_item8: "Festa"
+
+# ---------------  Separator -----------------
+
+  interested: "Estàs interessat?"
+  call_to_action: "¡Clar que sí! Inscriu-te ja o pose't en contacte amb nosaltre si vols saber més."
+  call_to_action_button: "Contacta'ns"
+
+# ---------------  About us -----------------
+
+  about_us_subheader: "WeCodeBCN està organitzar per Ironhack i Makers Of Barcelona, persones que estan enamorades cercant noves maneres d'aprendre i de crear"
+  ironhack: "Ironhack"
+  ironhack_description: "Ironhack ofereix cursos intensius de programació per principants i emprenedors. Fundada inicialment a Madrid, disposa de cursos a Barcelona i Miami. Fins ara, Ironhack ha ensenyat a més de mil estudiants a través de diferents tallers pràctics i els seus cursos intensius ('bootcamps'). Els cursos es centren el millorar la teva trajectòria profesional, els professors son desenvolupadors senior. L'émfasi del curs es posa en els exercicis i casos reals. El resultat és una tasa d'ocupació del 92% per als graduats d'Ironhack"
+  mob: "Makers Of Barcelona"
+  mob_description: "Makers of Barcelona es un a comunidad dinamica de más de 200 personas creativas, innovadoras, y con el espiritu de emprendedor de todas partes del mundo. MOB es mucho más de un coworking. Con mas de 120 miembros, ofrece la plataforma perfecta para impular un proyecto desde la concepción hasta la terminación. Te permite hacer pruebas, prototypos, marketing, y lanzamiento de tu proyecto todo bajo un sólo techo."
+
+# ---------------  Sponsors -----------------
+
+
+# ---------------  Contact -----------------
+
+  email: "Correo"
+  twitter: "Twitter"
+  visit: "Ubicació"
+  ironhack_email: "hi@ironhack.com"
+  ironhack_twitter: "@ironhack"
+  ironhack_address1: "Carrer de Bailén, 11"
+  ironhack_address2: "Barcelona"
+
+
+# ---------------  Register -----------------
+
+  register_subheader: "Omple el formulari per inscriure-te a l'event"
+  register_name: "Nom"
+  register_name_hint: "Com et diuen?"
+  register_email: "Correu"
+  register_email_hint: "Escriu el teu correu"
+  register_age: "Quants anys tens?"
+  register_choose: "Elegeix un"
+  register_data_error: "Omple aquest cap si us plau"
+  register_age_item1: "Menys de 18"
+  register_age_item2: "18 - 24"
+  register_age_item3: "25 - 35"
+  register_age_item4: "36 - 50"
+  register_age_item5: "Més de 50"
+  register_gender: "Quin és el teu sexe?"
+  register_gender_item1: "Dona"
+  register_gender_item2: "Home"
+  register_gender_item3: "Altre"
+  register_interest: "Perquè vols aprendre a programar?"
+  register_interest_item1: "Per curiositat. Sembla interessant."
+  register_interest_item2: "Vull crear webs."
+  register_interest_item3: "M'ajudarà en el meu lloc de feina actual."
+  register_interest_item4: "Vull ser desenvolupador professional."
+  register_interest_item5: "M'interessa la tecnologia en general."
+  register_background: "Conte'ns alguna cosa sobre tu! Quina és la teva experiència laboral o educativa? Algun altre fet interessant que vulguis compartir?"
+  newsletter: "Vull rebre el butlletí informatiu. Apunte'm!"
+  send: "Enviar"
+
+# ---------------  Confirmation modal -----------------
+
+  confirmation_thankyou: "Gràcies per la teva inscripció!"
+  confirmation_message: "Estarem en contacte amb més informació sobre l'event. Estàs en el camí adequat per crear la teva web!"
+  confirmation_message2: "Avisa a tothom!"
+  share_email: "mailto:?subject=I%27m%20going%20to%20WeCode%20BCN!;body=I%20just%20signed%20up%20to%20learn%20web%20development%20at%20WeCode%20BCN!%20https%3A%2F%2Ftodaywecode.org%2F"
+  share_twitter: "http://twitter.com/home?status=I%27m%20going%20to%20WeCode%20BCN!%20with%20%40MOB_BCN%20%40Ironhack%20https%3A%2F%2Ftodaywecode.org"
+  facebook: "Facebook"
+  close: "Tancar"
+  confirmation_fail_title: "¡Ups!"
+  confirmation_fail_body: "El teu formulari no s'ha enviat. Si us plau, confirm que tots els camps estàn correctament omplerts."

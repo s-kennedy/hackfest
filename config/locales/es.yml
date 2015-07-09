@@ -4,23 +4,23 @@ es:
 
   home: "Inicio"
   why_code: "Porqué programar?"
-  how_it_works: "Como funciona"
-  about_us: "Quíenes somos"
+  how_it_works: "Cómo funciona"
+  about_us: "Quienes somos"
   contact: "Contacto"
-  register: "Inscríbe-te"
+  register: "Inscríbete"
   schedule: "Horario"
-  sponsors: "Patrocinados"
+  sponsors: "Patrocinadores"
 
 # --------------- Intro -----------------
-  coming_soon: "Proximadamente en Oct 2015"
-  intro_text: "WeCode BCN es un festival de un día para cualquier que tiene la curiosiadad, motivación, y un teclado. Al cabo del día, te marcharas con un a web que funciona y todas las herramientas y conocimentos que te hacia falta para crearla. La participación es gratuita, simplemente trae un portátil. ¡Principiantes totales son totalemente bienvenidos!"
-  register: "Inscríbe-te"
+  coming_soon: "Próximadamente en Oct 2015"
+  intro_text: "WeCode BCN es un festival de un día para cualquier que tiene curiosiadad, motivación, y un ordenador. Al cabo del día, te marcharas con un a web que funciona y todas las herramientas y conocimentos que te hacen falta para crearla. La participación es gratuita, simplemente trae un portátil. ¡Principiantes bienvenidos!"
+  register: "Inscríbete"
 
 # ---------------  Why Code -----------------
 
-  why_code_subheader: "Si te interesa divulgar el desarrollo web, WeCodeBCN es una manera divertida y fácil para explorar una nueva trayectoria laboral potencial. Aquí tienes tres motivos por los cuales creemos que vale la pena intentar:"
-  why_code_item1: "Hay una demanda alta para los programadores."
-  why_code_item2: "Cualquier es capaz de aprender lo básico"
+  why_code_subheader: "Si te interesa divulgar el desarrollo web, WeCodeBCN es una manera divertida y fácil para explorar una nueva trayectoria laboral. Aquí tienes tres motivos por los cuales creemos que vale la pena intentarlo:"
+  why_code_item1: "Hay una demanda muy alta de programadores."
+  why_code_item2: "Cualquiera puede aprender a programar"
   why_code_item3: "¡Es divertido - de verdad, divertidísimo!"
   read_more: "Leer más"
 
@@ -28,22 +28,22 @@ es:
 
   how_it_works_subheader: "Que puedes esperar del primer festival de coding en Barcelona?"
   how_it_works_item1_title: "Clases"
-  how_it_works_item1_description: "Vas a hacer un 'crash course' de desarrollo web, empezando por clases para principiantes de HTML y CSS. Vas a colaborar con un instructor que contestará a tus preguntas. Pero no te fixes demasiado en las clases - esto es otra manera de aprender. Te enseñamos a enseñar a tu mismo."
+  how_it_works_item1_description: "Vas a hacer un 'crash course' de desarrollo web, empezando por clases para principiantes de HTML y CSS. Vas a colaborar con un instructor que contestará a tus preguntas. Pero no te fijes demasiado en las clases - esto es otra manera de aprender. Te enseñaremos como aprender por ti mismo."
   how_it_works_item1_bullet1: "html"
   how_it_works_item1_bullet2: "css"
 
-  how_it_works_item2_title: "proyectos"
-  how_it_works_item2_description: "Creemos en aprender por hacer. Te sorprenderá que rápido lograrás a escribir tu primera línea de codigo. Tú y tu equipo vaís a elegir un informe de proyecto de un a empresa real y desempeñar el proyecto durante el día. Cada miembro del equipo escribe parte del proyecto final. Cada equipo tendrá un instructor para contestar a las preguntas y asegurar que el proyecto va bien."
-  how_it_works_item2_bullet1: "Codigo real"
+  how_it_works_item2_title: "Proyectos"
+  how_it_works_item2_description: "Creemos en aprender haciendo. Te sorprenderá lo rápido que lograrás a escribir tu primera línea de codigo. Tú y tu equipo vais a elegir un informe de proyecto de un a empresa real y desempeñar el proyecto durante el día. Cada miembro del equipo hará parte del proyecto final. Cada equipo tendrá un instructor para contestar a las preguntas y asegurar que el proyecto termina adecuadamente."
+  how_it_works_item2_bullet1: "Código real"
   how_it_works_item2_bullet2: "Proyectos creativos"
 
-  how_it_works_item3_title: "gente"
-  how_it_works_item3_description: "Cononcerás a gente como tu - interesados en aprender el codigo, sobre todo en tu equipo. A lo largo del día, vas a colaborar con un equipo pequeño para crear una web. Este evento es para principiantes, entonces habrá gente de muchos entornos distintos. Lo que tenemos todos en común es la mente abierta y una pasión para crear."
+  how_it_works_item3_title: "Gente"
+  how_it_works_item3_description: "Cononcerás a gente como tu - interesados en aprender a programar. A lo largo del día, vas a colaborar con tu equipo para crear una web. Este evento es para principiantes, habrá gente de muchos sectores distintos. Lo que tendreis todos en común será la mente abierta y pasión para crear."
   how_it_works_item3_bullet1: "200+ participantes"
   how_it_works_item3_bullet2: "Equipos de 10"
 
   how_it_works_item4_title: "Diversión"
-  how_it_works_item4_description: "Más allá de aprender y practicar el codigo, acabamos el día con un 'pitch competition'. Al final del día, tu equipo habrá creado una web entera que podréis presentar en competición para ganar premios chulos. Y claro, no lo podríamos llamarlo un festival si no teníamos un afterparty!"
+  how_it_works_item4_description: "Mas allá de aprender y practicar programación, el día acabará con un 'pitch competition'. Al final del día, tu equipo habrá creado una web entera que podréis presentar en el concurso para ganar premios. Y claro, no lo podríamos llamar festival si no tuviéramos una afterparty!"
   how_it_works_item4_bullet1: "pitches/premios"
   how_it_works_item4_bullet2: "afterparty!"
 
@@ -54,24 +54,24 @@ es:
   schedule_item2: "Curso: HTML/CSS"
   schedule_item3: "Empezar a programar!"
   schedule_item4: "Hora de comer"
-  schedule_item5: "Seguir trabajor en equipo"
-  schedule_item6: "Orador invitado"
-  schedule_item7: "Competición de pitches"
+  schedule_item5: "Seguir trabajando en equipo"
+  schedule_item6: "'Speaker' invitado"
+  schedule_item7: "Concurso de pitches"
   schedule_item8: "Afterparty"
 
 # ---------------  Separator -----------------
 
   interested: "Te interesa?"
-  call_to_action: "¡Claro que sí! Inscríbe-te ya o ponte en contacto con nosotros si quieres saber más."
-  call_to_action_button: "Contacte-nos"
+  call_to_action: "¡Claro que sí! Inscríbete ya o ponte en contacto con nosotros si quieres saber más."
+  call_to_action_button: "Contactanos"
 
 # ---------------  About us -----------------
 
-  about_us_subheader: "WeCodeBCN está organizado por Ironhack y Makers of Barcelona, es decir, por gente que le encanta buscar nuevas maneras de aprender y crear."
+  about_us_subheader: "WeCodeBCN está organizado por Ironhack y Makers Of Barcelona, por gente que le encanta buscar nuevas maneras de aprender y crear."
   ironhack: "Ironhack"
-  ironhack_description: "Ironhack brinda cursos intensivos de programación para desarrolladores y emprendedores. Fundado en Madrid, ahora es operativo también en Barcelona y Miami. Ironhack ha tocado a más de mil estudiantes a través de talleres practicas y cursos intensivos ('bootcamps'). Los cursos se focalizan en mejorar su trayectoria profesional y los profesores son desarrolladores profesionales. El emfásis es sobre la pratica y casos de uso reales. El resultado es una tasa de 92% de ubicación en puestos de trabajo para los diplomados de Ironhack."
-  mob: "Makers of Barcelona (MOB)"
-  mob_description: "Makers of Barcelona es un a comunidad dinamica de más de 200 personas creativas, inovadoras, y con el espiritu de emprendedor. MOB es mucho más de un coworking. Con mas de 120 miembros, ofrece la plataforma perfecta para impular un proyecto desde la concepción hasta la terminación. Te permite hacer pruebas, prototypos, marketing, y lanzamiento de tu proyecto todo bajo un sólo techo."
+  ironhack_description: "Ironhack ofrece cursos intensivos de programación para principiantes y emprendedores. Fundado en Madrid, también tiene cursos en Barcelona y Miami. Ironhack ha enseñado ya a más de mil estudiantes a través de talleres prácticos y cursos intensivos ('bootcamps'). Los cursos se centran en mejorar tu trayectoria profesional y los profesores son desarrolladores senior. El emfásis de los cursos está en los ejercicios y casos reales. El resultado es una tasa de ocupación del 92% para los graduados en Ironhack."
+  mob: "Makers Of Barcelona"
+  mob_description: "Makers of Barcelona es un a comunidad dinamica de más de 200 personas creativas, innovadoras, y con el espiritu de emprendedor de todas partes del mundo. MOB es mucho más de un coworking. Con mas de 120 miembros, ofrece la plataforma perfecta para impular un proyecto desde la concepción hasta la terminación. Te permite hacer pruebas, prototypos, marketing, y lanzamiento de tu proyecto todo bajo un sólo techo."
 
 # ---------------  Sponsors -----------------
 
@@ -89,12 +89,12 @@ es:
 
 # ---------------  Register -----------------
 
-  register_subheader: "Rellena el formulario aquí abajo para inscribir-te al evento"
+  register_subheader: "Rellena el formulario para inscribirte al evento"
   register_name: "Nombre"
   register_name_hint: "Como te llamas?"
   register_email: "Correo"
   register_email_hint: "Escribe tu correo"
-  register_age: "Que edad teines?"
+  register_age: "Que edad tienes?"
   register_choose: "Elige uno"
   register_data_error: "Rellena este campo, por favor"
   register_age_item1: "Menos de 18"
@@ -102,33 +102,28 @@ es:
   register_age_item3: "25 - 35"
   register_age_item4: "36 - 50"
   register_age_item5: "Más de 50"
-  register_gender: "Cual es tu genero?"
+  register_gender: "Cual es tu género?"
   register_gender_item1: "Mujer"
   register_gender_item2: "Hombre"
   register_gender_item3: "Otro"
-  register_interest: "Porqué queires aprender la programación?"
+  register_interest: "Porqué queires aprender a programar?"
   register_interest_item1: "Por curiosidad. Parece interesante."
   register_interest_item2: "Quiero hacer webs."
   register_interest_item3: "Creo que me ayudara en mi trabajo actual."
   register_interest_item4: "Quiero ser programador profesional."
   register_interest_item5: "En general me interesa la tecnología."
   register_background: "Cuenta-nos algo sobre ti! Cual es tu experiencia laboral o educativa? Algún otro hecho interesante que quieres compartir?"
-  newsletter: "Quiero recibir el boletín informativo. ¡Apunta-me!"
+  newsletter: "Quiero recibir el boletín informativo. ¡Apúntame!"
   send: "Enviar"
 
 # ---------------  Confirmation modal -----------------
 
   confirmation_thankyou: "Gracias por tu inscripción!"
-  confirmation_message: "Estaremos en contact con más información del evento y que esperar. Estás en el camino para programar tu primer web!"
+  confirmation_message: "Estaremos en contacto con más información del evento. Estás en el camino correcto para crear tu primera web!"
   confirmation_message2: "Avisa a todo el mundo!"
   share_email: "mailto:?subject=I%27m%20going%20to%20WeCode%20BCN!;body=I%20just%20signed%20up%20to%20learn%20web%20development%20at%20WeCode%20BCN!%20https%3A%2F%2Ftodaywecode.org%2F"
   share_twitter: "http://twitter.com/home?status=I%27m%20going%20to%20WeCode%20BCN!%20with%20%40MOB_BCN%20%40Ironhack%20https%3A%2F%2Ftodaywecode.org"
   facebook: "Facebook"
   close: "Cerrar"
   confirmation_fail_title: "¡Ups!"
-  confirmation_fail_body: "Tu formulario no se evió. Por favor, confirma que todos los campos estan rellenados correctamente. "
-
-
-
-
-
+  confirmation_fail_body: "Tu formulario no se ha enviado. Por favor, confirma que todos los campos estan rellenados correctamente."
