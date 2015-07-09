@@ -13,12 +13,12 @@ en:
 
 # --------------- Intro -----------------
   coming_soon: "Coming Oct 2015"
-  intro_text: "WeCode BCN is a one-day coding festival for anyone who has curiosity, creativity, and a keyboard. At the end of the day, you'll walk away with a fully functional website and all the skills you used to build it. It's completely free to attend, you just need to bring a laptop. Total beginners are totally welcome!"
+  intro_text: "WeCodeBCN is a one-day coding festival for anyone who has curiosity, creativity, and a keyboard. At the end of the day, you'll walk away with a fully functional website and all the skills you used to build it. It's completely free to attend, you just need to bring a laptop. Total beginners are totally welcome!"
   register: "Register"
 
 # ---------------  Why Code -----------------
 
-  why_code_subheader: "If you're interested in learning web development, WeCode BCN is a fun and low-risk way to try out a potential new career path. Here's why we think it's worth a shot."
+  why_code_subheader: "If you're interested in learning web development, WeCodeBCN is a fun and low-risk way to try out a potential new career path. Here's why we think it's worth a shot."
   why_code_item1: "Programmers are in high demand."
   why_code_item2: "Anyone can learn the basics."
   why_code_item3: "It's fun! So. Much. Fun."
@@ -67,11 +67,11 @@ en:
 
 # ---------------  About us -----------------
 
-  about_us_subheader: "WeCode BCN is organized by Ironhack and Makers of Barcelona, or in other words, by people who delight in constantly finding new ways to learn and create."
+  about_us_subheader: "WeCodeBCN is organized by Ironhack and Makers of Barcelona, or in other words, by people who delight in constantly finding new ways to learn and create."
   ironhack: "Ironhack"
   ironhack_description: "Ironhack offers intensive programming courses for developers and entrepreneurs. Founded in Madrid, it is also operational in Barcelona and Miami. Ironhack has reached over a thousand students through hands-on workshops and intensive bootcamp courses. The courses are career-focused and taught by professional developers, with a big emphasis on practical application and real use cases. The result is a 92% job placement rate among its graduates."
-  mob: "Makers of Barcelona (MOB)"
-  mob_description: "Makers of Barcelona is a striving community of over 200 creative, innovative and business minded people, from all over the world. MOB is much more than a co-working office. With over 120 members, it provides the perfect platform from which to take a project from idea to completion, allowing you to test, prototype, market and release your project all under one roof."
+  mob: "Makers of Barcelona"
+  mob_description: "Makers of Barcelona is a striving community of over 200 creative, innovative and business minded people, from all over the world. MOB  goes beyond co-working and provides the perfect platform from which to take a project from idea to completion, allowing you to test, prototype, market and release your project all under one roof."
 
 # ---------------  Sponsors -----------------
 
