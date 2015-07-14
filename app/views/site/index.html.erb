@@ -472,8 +472,8 @@
                         <div class="col-lg-12">
 	                        <!-- begin name input element -->
                             <div class="register-form-spacer form-group">
-                              	<%= f.text_field :name, {class: "form-control", placeholder: "#{t :register_name}", data: {error: "#{t :register_name_hint}"}} %>
-                              	<%= tag("div", class: ["help-block", "with-errors"]) %>
+                              	<%= f.text_field :name, {required: true, class: "form-control", placeholder: "#{t :register_name}", data: {error: "#{t :register_name_hint}"}} %>
+                              	<%= content_tag("div", nil, class: ["help-block", "with-errors"]) %>
                             </div>
 	                        <!-- end name input element -->
                         </div> <!-- end col-lg-12 -->
@@ -481,8 +481,8 @@
 		                    <div class="col-lg-12">
 		                        <!-- begin email input element -->
 	                            <div class="register-form-spacer form-group">
-	                          			<%= f.text_field :email, {class: "form-control", placeholder: "#{t :register_email}", data: {error: "#{t :register_email_hint}"}} %>
-	                          			<%= tag("div", class: ["help-block", "with-errors"]) %>
+	                          			<%= f.text_field :email, {required: true, class: "form-control", placeholder: "#{t :register_email}", data: {error: "#{t :register_email_hint}"}} %>
+	                          			<%= content_tag("div", nil, class: ["help-block", "with-errors"]) %>
 	                            </div>
 		                        <!-- end email input element -->
 		                    </div> <!-- end col-lg-12 -->
@@ -490,8 +490,8 @@
 		                    <div class="col-lg-12">
 		                        <!-- begin age input element -->
 		                            <div class="register-form-spacer form-group">
-		                            		<%= label_tag :age, "How old are you?", class: "form-label" %>
-		                            		<%= f.select :age, [['Choose one', 'Choose one'], ['Under 18', 'Under 18'], ['18-24', '18-24'], ['25-35', '25-35'], ['36-50', '36-50'], ['Over 50', 'Over 50'], 'Choose one'], {}, {class: "form-control"} %>
+		                            		<%= label_tag :age, "#{t :register_age}", class: "form-label" %>
+		                            		<%= f.select :age, [["#{t :register_choose}", "#{t :register_choose}"], ["#{t :register_age_item1}", "#{t :register_age_item1}"], ["#{t :register_age_item2}", "#{t :register_age_item2}"], ["#{t :register_age_item3}", "#{t :register_age_item3}"], ["#{t :register_age_item4}", "#{t :register_age_item4}"], ["#{t :register_age_item5}", "#{t :register_age_item5}"]], {}, {class: "form-control"} %>
 		                            </div>
 		                        <!-- end age input element -->
 		                    </div> <!-- end col-lg-6 -->
@@ -499,8 +499,8 @@
 		                    <div class="col-lg-12">
 		                        <!-- begin gender input element -->
 		                            <div class="register-form-spacer form-group">
-		                            		<%= label_tag :gender, "What's your gender?", class: "form-label" %>
-		                            		<%= f.select :age, [['Choose one', 'Choose one'], ['Female', 'Female'], ['Male', 'Male'], ['Other', 'Other'], 'Choose one'], {}, {class: "form-control"} %>
+		                            		<%= label_tag :gender, "#{t :register_gender}", class: "form-label" %>
+		                            		<%= f.select :age, [["#{t :register_choose}", "#{t :register_choose}"], ["#{ t :register_gender_item1}", "#{ t :register_gender_item1}"], ["#{ t :register_gender_item2}", "#{ t :register_gender_item2}"], ["#{ t :register_gender_item3}", "#{ t :register_gender_item3}"]], {}, {class: "form-control"} %>
 		                            </div>
 		                        <!-- end gender input element -->
 		                    </div> <!-- end col-lg-6 -->
@@ -509,8 +509,8 @@
 		                        <!-- begin interest input element -->
 		                            <div class="register-form-spacer form-group">
 		                            		<%= label_tag :interest, "#{t :register_interest}", class: "form-label" %>
-		                            		<%= f.select :interest, [["#{t :register_choose}", "#{t :register_choose}"], ["#{t :register_interest_item1}", "#{t :register_interest_item1}"], ["#{t :register_interest_item2}", "#{t :register_interest_item2}"], ["#{t :register_interest_item3}", "#{t :register_interest_item3}"], ["#{t :register_interest_item4}", "#{t :register_interest_item4}"], ["#{t :register_interest_item5}", "#{t :register_interest_item5}"], "#{t :register_interest_item1}"], {}, {class: "form-control"} %>
-	                                  <%= tag("div", class: ["help-block", "with-errors"]) %>
+		                            		<%= f.select :interest, [["#{t :register_choose}", "#{t :register_choose}"], ["#{t :register_interest_item1}", "#{t :register_interest_item1}"], ["#{t :register_interest_item2}", "#{t :register_interest_item2}"], ["#{t :register_interest_item3}", "#{t :register_interest_item3}"], ["#{t :register_interest_item4}", "#{t :register_interest_item4}"], ["#{t :register_interest_item5}", "#{t :register_interest_item5}"]], {}, {required: true, class: "form-control", data: {error: "#{t :register_data_error}"}} %>
+	                                  <%= content_tag("div", nil, class: ["help-block", "with-errors"]) %>
 		                            </div>
 		                        <!-- end age input element -->
 		                    </div> <!-- end col-lg-6 -->
@@ -518,10 +518,11 @@
 		                    <div class="col-lg-12">
 			                    <!-- begin Interest element -->
 			                        <div class="register-form-spacer form-group">
-			                        		<%= f.text_area :background, {required: "true", class: "form-control", placeholder: "#{t :register_background}", data: {error: "#{t :register_data_error}"}} %>
-			                        		<%= tag("div", class: ["help-block", "with-errors"]) %>
+			                        		<%= f.text_area :background, {required: true, class: "form-control", placeholder: "#{t :register_background}", data: {error: "#{t :register_data_error}"}} %>
+			                        		<%= content_tag("div", nil, class: ["help-block", "with-errors"]) %>
 			                        </div>
 	                      </div>
+	                      
 		                        <!-- end Interest element -->
 		                        
 		                    <div class="col-lg-12 register">
@@ -530,14 +531,16 @@
 		                    		<%= label_tag :newsletter, "#{t :newsletter}" %>
 		                    	</div>
 		                    </div>
+		                  
                         <!-- begin Submit button -->
                         		<div class="text-center">
                         				<%= f.submit "Send", {class: "btn btn-default"} %>
                             </div>
+
                         <!-- end Submit button -->
                     <% end %>
 	                       <!-- </div> -->
-                </div> <!-- </form-container> -->
+              </div> <!-- </form-container> -->
 	                
 				<!-- register form ends -->
 
@@ -547,26 +550,26 @@
 				    <div class="modal-content">
 				      <div class="modal-header">
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				        <h4 class="modal-title">Thanks for registering!</h4>
+				        <h4 class="modal-title"><%= t :confirmation_thankyou %></h4>
 				      </div>
 				      <div class="modal-body">
-				        <p>We'll email you soon with more information about the event and what to expect. You're on your way to coding your first website!</p>
-				        <p>Tell everyone you know.</p>
+				        <p><%= t :confirmation_message %></p>
+				        <p><%= t :confirmation_message2 %></p>
 				        <!-- social share buttons -->
 				        <ul class="list-unstyled list-inline">
 				        	<li>
-					        	<a href="mailto:?subject=I%27m%20going%20to%20WeCodeBCN!;body=I%20just%20signed%20up%20to%20learn%20web%20development%20at%20WeCodeBCN!%20https%3A%2F%2Ftodaywecode.org%2F">
-						        	<button class="btn btn-email"><i class="fa fa-envelope"></i>Email</button>
+					        	<a href=<%= "#{ t :share_email }" %>>
+						        	<button class="btn btn-email"><i class="fa fa-envelope"></i><%= t :email %></button>
 					        	</a>
 				        	</li>
 				        	<li>
 					        	<a href="https://www.facebook.com/sharer/sharer.php?u=https://todaywecode.org/" target="_blank">
-						        	<button class="btn btn-fb"><i class="fa fa-facebook"></i>Facebook</button>
+						        	<button class="btn btn-fb"><i class="fa fa-facebook"></i><%= t :facebook %></button>
 					        	</a>
 				        	</li>
 				        	<li>
-					        	<a href="http://twitter.com/home?status=I%27m%20going%20to%20WeCodeBCN!%20with%20%40MOB_BCN%20%40Ironhack%20https%3A%2F%2Ftodaywecode.org" target="_blank">
-						        	<button class="btn btn-twitter"><i class="fa fa-twitter"></i>Twitter</button>
+					        	<a href=<%= "#{t :share_twitter }" %> target="_blank">
+						        	<button class="btn btn-twitter"><i class="fa fa-twitter"></i><%= t :twitter %></button>
 					        	</a>
 				        	</li>
 				        </ul>
@@ -574,7 +577,7 @@
 				        <!-- end social share buttons -->		      
 				      </div>
 				      <div class="modal-footer">
-				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-default" data-dismiss="modal"><%= t :close %></button>
 				      </div>
 				    </div><!-- /.modal-content -->
 				  </div><!-- /.modal-dialog -->
@@ -586,13 +589,13 @@
 				    <div class="modal-content">
 				      <div class="modal-header">
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				        <h4 class="modal-title">Oops!</h4>
+				        <h4 class="modal-title"><%= t :confirmation_fail_title %></h4>
 				      </div>
 				      <div class="modal-body">
-				        <p>Your form was not submitted. Please make sure all the fields are filled in correctly.</p>
+				        <p><%= t :confirmation_fail_body %></p>
 				      </div>
 				      <div class="modal-footer">
-				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-default" data-dismiss="modal"><%= t :close %></button>
 				      </div>
 				    </div><!-- /.modal-content -->
 				  </div><!-- /.modal-dialog -->
@@ -601,12 +604,16 @@
 			</div> <!-- end row -->
 
 	</div> <!-- end container -->
+</div>
+</div>
+</div>
+</div>
 </div> <!-- end registration -->
 
 
 <!-- end contact ################################### -->
 
-<div>
+
 <p class="copyright"> Copyright 2015 Ironhack</p>
 
 </div> <!-- end #container & animsition -->
