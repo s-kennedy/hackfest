@@ -3,7 +3,7 @@ es:
 # --------------- Menu ------------------
 
   home: "Inicio"
-  why_code: "Porqué programar?"
+  why_code: "Por qué programar?"
   how_it_works: "Cómo funciona"
   about_us: "Quienes somos"
   contact: "Contacto"
@@ -71,7 +71,7 @@ es:
   ironhack: "Ironhack"
   ironhack_description: "Ironhack ofrece cursos intensivos de programación para principiantes y emprendedores. Fundado en Madrid, también tiene cursos en Barcelona y Miami. Ironhack ha enseñado ya a más de mil estudiantes a través de talleres prácticos y cursos intensivos ('bootcamps'). Los cursos se centran en mejorar tu trayectoria profesional y los profesores son desarrolladores senior. El emfásis de los cursos está en los ejercicios y casos reales. El resultado es una tasa de ocupación del 92% para los graduados en Ironhack."
   mob: "Makers Of Barcelona"
-  mob_description: "Makers of Barcelona es un a comunidad dinamica de más de 200 personas creativas, innovadoras, y con el espiritu de emprendedor de todas partes del mundo. MOB es mucho más de un coworking. Con mas de 120 miembros, ofrece la plataforma perfecta para impular un proyecto desde la concepción hasta la terminación. Te permite hacer pruebas, prototypos, marketing, y lanzamiento de tu proyecto todo bajo un sólo techo."
+  mob_description: "Makers of Barcelona es una comunidad de 200 creativos, innovadores y emprendedores de todo el mundo. MOB va más allá del co-working y proporciona la mejor plataforma desde la que transformar las ideas en proyectos acabados; permitiendo testear, prototipar, promocionar y lanzar tu proyecto, todo bajo un mismo techo."
 
 # ---------------  Sponsors -----------------
 
