@@ -6,6 +6,4 @@ class SiteController < ApplicationController
   def file_not_found
   end
 
-  def sponsors
-  end
 end
