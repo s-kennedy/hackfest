@@ -140,6 +140,10 @@ a:hover, a:focus{
     border: 2px solid #ec1556;
   }
 
+  .submit-btn:hover {
+    color: #3a3a3a;
+  }
+
 /* button 2 */
 
 .btn-wb {
@@ -269,6 +273,7 @@ header {
   top: 0;
   width: 100%;
   overflow: hidden;
+  border-bottom: 2px solid #ec1556;
 }
 
 .logo {
@@ -300,6 +305,19 @@ header {
 
 
 /* 06. Intro -------------------------------------------------- */
+
+#video {
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  margin-top: 65px;
+}
+
+iframe {
+  width: 100%;
+  height: 460px;
+}
 
 #intro {
   background: url(ironhack-cover2.png) 50% 0 repeat fixed;
