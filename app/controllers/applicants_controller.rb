@@ -15,11 +15,12 @@ class ApplicantsController < ApplicationController
 
     respond_to do |format|
       if @applicant.save
-        # ApplicantsMailer.registration_form(@applicant).deliver_later
         format.html { redirect_to root_path, notice: "Thanks for registering!" }
+        format.js {}
         format.json { render json: @applicant, status: :created}
       else
         format.html { redirect_to root_path, notice: "Your message was not submitted correctly. Please try again." }
+        format.js {render action: 'error', status: :unprocessable_entity}
         format.json { render json: @applicant.errors, status: :unprocessable_entity}
       end
     end

@@ -467,7 +467,7 @@
 			<div class="row">
 				<!-- registration form begins -->
 	            <div class="form-container" id="register-form">
-	            		<%= form_for @applicant, url: {action: "create", controller: "applicants"}, html: {class: "form"} do |f| %>
+	            		<%= form_for @applicant, remote: "true", html: {class: "form", id: "regform"} do |f| %>
 
                         <div class="col-lg-12">
 	                        <!-- begin name input element -->
@@ -500,7 +500,7 @@
 		                        <!-- begin gender input element -->
 		                            <div class="register-form-spacer form-group">
 		                            		<%= label_tag :gender, "#{t :register_gender}", class: "form-label" %>
-		                            		<%= f.select :age, [["#{t :register_choose}", "#{t :register_choose}"], ["#{ t :register_gender_item1}", "#{ t :register_gender_item1}"], ["#{ t :register_gender_item2}", "#{ t :register_gender_item2}"], ["#{ t :register_gender_item3}", "#{ t :register_gender_item3}"]], {}, {class: "form-control"} %>
+		                            		<%= f.select :gender, [["#{t :register_choose}", "#{t :register_choose}"], ["#{ t :register_gender_item1}", "#{ t :register_gender_item1}"], ["#{ t :register_gender_item2}", "#{ t :register_gender_item2}"], ["#{ t :register_gender_item3}", "#{ t :register_gender_item3}"]], {}, {class: "form-control"} %>
 		                            </div>
 		                        <!-- end gender input element -->
 		                    </div> <!-- end col-lg-6 -->
