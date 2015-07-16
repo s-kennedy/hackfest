@@ -112,7 +112,8 @@ en:
   register_interest_item4: "I want to become a professional web developer."
   register_interest_item5: "I'm generally interested in learning about technology."
   register_background: "Tell us a bit about yourself! What is your educational/professional background? Any other fun facts about you we should know?"
-  newsletter: "I want get the Ironhack newsletter. Sign me up!"
+  newsletter_ih: "I want get the Ironhack newsletter. Sign me up."
+  newsletter_mob: "Yup, I want the MOB newsletter too!"
   send: "Send"
 
 # ---------------  Confirmation modal -----------------
@@ -127,6 +128,13 @@ en:
   confirmation_fail_title: "Oops!"
   confirmation_fail_body: "Your form was not submitted. Please make sure all the fields are filled in correctly."
 
+# ---------------  Sponsors -----------------
+
+  sponsorship: "Sponsorship"
+  sponsors_subheader: "Are you interested in being a sponsor at We/Code?"
+  sponsorship_introduction: "We/Code is an opportunity to participate in a growing movement of tech education. This is Europe's largest learn-to-code festival, and it's only going to get bigger. We're looking for forward-thinking companies to come on board as our core sponsors."
+  contact_us: "Contact us"
+  more_info: "More info"
 
 
 

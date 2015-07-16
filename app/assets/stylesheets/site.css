@@ -107,6 +107,7 @@ p.sub-header {
   color: #8c8c8c;
   font-size: 20px;
   margin-bottom: 80px;
+  text-align: center;
 }
 
 p.sub-header-small {
@@ -374,6 +375,10 @@ iframe {
   .text-intro p {
     color: #676666;
     font-size: 18px;
+  }
+
+  .sponsors-intro {
+    margin-top: 65px;
   }
 
 

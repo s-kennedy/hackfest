@@ -113,7 +113,7 @@ ca:
   register_interest_item4: "Vull ser desenvolupador professional."
   register_interest_item5: "M'interessa la tecnologia en general."
   register_background: "Conte'ns alguna cosa sobre tu! Quina és la teva experiència laboral o educativa? Algun altre fet interessant que vulguis compartir?"
-  newsletter: "Vull rebre el butlletí informatiu. Apunte'm!"
+  newsletter_ih: "Vull rebre el butlletí informatiu. Apunte'm!"
   send: "Enviar"
 
 # ---------------  Confirmation modal -----------------
@@ -127,3 +127,11 @@ ca:
   close: "Tancar"
   confirmation_fail_title: "¡Ups!"
   confirmation_fail_body: "El teu formulari no s'ha enviat. Si us plau, confirm que tots els camps estàn correctament omplerts."
+
+# ---------------  Sponsors -----------------
+
+  sponsorship: "Sponsorship"
+  sponsors_subheader: "Are you interested in being a sponsor at We/Code?"
+  sponsorship_introduction: "We/Code is an opportunity to participate in a growing movement of tech education. This is Europe's largest learn-to-code festival, and it's only going to get bigger. We're looking for forward-thinking companies to come on board as our core sponsors."
+  contact_us: "Contact us"
+  more_info: "More info"
