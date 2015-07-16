@@ -5,6 +5,6 @@ Rails.application.routes.draw do
     root to: 'site#index'
     match '/404', to: 'site#file_not_found', via: :all
     resources :applicants, only: [:index, :new, :create, :destroy]
-    get '/sponsors' => 'site#sponsors'
+    get '/sponsors' => 'site#sponsors', as: "sponsors"
   end
 end
