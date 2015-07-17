@@ -538,15 +538,15 @@
 		                        
 		                    <div class="col-lg-6 register">
 		                    	<div class="register-form-spacer text-center">
-		                    		<%= f.check_box :newsletter, {class: "register-checkbox"} %>
-		                    		<%= label_tag :newsletter, "#{t :newsletter_ih}" %>
+		                    		<%= f.check_box :newsletter_ih, {value: "yes", checked: true, class: "register-checkbox"} %>
+		                    		<%= label_tag :newsletter_ih, "#{t :newsletter_ih}" %>
 		                    	</div>
 		                    </div>
 
 		                    <div class="col-lg-6 register">
 		                    	<div class="register-form-spacer text-center">
-		                    		<%= f.check_box :newsletter, {class: "register-checkbox"} %>
-		                    		<%= label_tag :newsletter, "#{t :newsletter_mob}" %>
+		                    		<%= f.check_box :newsletter_mob, { value: "yes", checked: true, class: "register-checkbox"} %>
+		                    		<%= label_tag :newsletter_mob, "#{t :newsletter_mob}" %>
 		                    	</div>
 		                    </div>
 		                  
