@@ -18,9 +18,9 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <div class="logo">
-          <a href="#intro" data-scroll>
+          <%= link_to root_path do %>
             <img src="/assets/wecodelogo.png" alt="WeCodeBCN" height="40px" width="auto">
-          </a>
+        <% end %>
         </div>
       </div> <!-- end col-lg-6 -->
     
@@ -45,13 +45,43 @@
     <div class="container">
       <p class="title"><%= t :sponsorship %></p>
       <p> <%= t :sponsorship_introduction %>   </p>
-      <div class="button-container"><a href="mailto:sharon@ironhack.com" class="btn btn-default btn-white"><%= t :contact_us %></a></div>
+      <div class="button-container"><a href="#contact" class="btn btn-default btn-white" data-scroll><%= t :contact_us %></a></div>
     </div> <!-- end container -->
   </div> <!-- end text intro -->
 
+
+
+<!-- presentation  ################################### -->
   <div class="cover">
     <iframe src="https://docs.google.com/presentation/d/16rJQIbU577S8b4g8b8pqg__BanOGXIpkC8RMTJsZQuQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
+
+<!-- end presentation  ################################### -->
+
+  <!-- contact us ################################### -->
+
+<div id="contact">
+
+      <p class="separator-title"><%= t :contact_us %></p>
+      <ul class="contact-info-list list-unstyled list-inline">
+        <li>
+          <p class="contact-info-title"><%= t :email %></p>
+          <p><a class="contact-info-text" href="mailto:hi@ironhack.com" target="blank"><%= t :ironhack_email %></a></p>
+        </li>
+        
+        <li>
+          <p class="contact-info-title"><%= t :twitter %></p>
+          <p><a class="contact-info-text" href="https://twitter.com/ironhack" target="blank"><%= t :ironhack_twitter %></a></p>
+        </li>
+        
+        <li>
+          <p class="contact-info-title"><%= t :visit %></p>
+          <p><a class="contact-info-text" href="https://www.google.es/maps/place/MOB+(Makers+Of+Barcelona)/@41.391829,2.177191,17z/data=!3m1!4b1!4m2!3m1!1s0x12a4a2e4de683851:0xb8914736ff97cfb6?hl=en" target="blank"><%= t :ironhack_address1 %><br/><%= t :ironhack_address2 %></a></p>
+        </li>
+      </ul>
+</div>
+
+<!-- end contact-us ################################### -->
 
 <p class="copyright"> Copyright 2015 Ironhack</p>
 
