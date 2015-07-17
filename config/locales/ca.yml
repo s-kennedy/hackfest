@@ -130,8 +130,8 @@ ca:
 
 # ---------------  Sponsors -----------------
 
-  sponsorship: "Sponsorship"
+  sponsorship: "Esponsorització"
   sponsors_subheader: "Are you interested in being a sponsor at We/Code?"
-  sponsorship_introduction: "We/Code is an opportunity to participate in a growing movement of tech education. This is Europe's largest learn-to-code festival, and it's only going to get bigger. We're looking for forward-thinking companies to come on board as our core sponsors."
-  contact_us: "Contact us"
-  more_info: "More info"
+  sponsorship_introduction: "We/Code es una oportunitat per participar en un moviment en creixement com és la educació tecnológica. Serà el major event 'learn-to-code' d'Europa, i cada any es farà més gran. Estem buscant empreses amb la mentalitat posada en el futur. Participa amb nosaltres d'aquesta aventura com un els nostres principals sponsors."
+  contact_us: "Contacta'ns"
+  more_info: "Més informació"

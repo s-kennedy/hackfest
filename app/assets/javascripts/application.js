@@ -16,6 +16,7 @@
 //= require jquery.animsition.min.js
 //= require jquery.mixitup.min.js
 //= require jquery.parallax-1.1.3
+//= require froogaloop
 //= require bootstrap.min
 //= require pushy.min
 //= require smooth-scroll.min

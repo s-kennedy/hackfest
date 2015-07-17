@@ -3,12 +3,9 @@
 <nav class="pushy pushy-right">
     <ul class="list-unstyled">
       <li><a href="#">X</a></li>
-      <li class='current'><a class='current' href="index.html" data-scroll><%= t :home %></a></li>
-        <li><a href="#why-code" data-scroll><%= t :why_code %></a></li>
-        <li><a href="#how-it-works" data-scroll><%= t :how_it_works %></a></li>
-        <li><a href="#about" data-scroll><%= t :about_us %></a></li>
-        <li><a href="#contact" data-scroll><%= t :contact %></a></li>
-        <li><a href="#register" data-scroll><%= t :register %></a></li>
+      <li class='current'>
+        <%= link_to t(:home), root_path, class: "current" %>
+      </li>
     </ul>
 </nav>
 
@@ -30,9 +27,9 @@
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
           
         <div class="menu-right">
-          <a href="/en">en</a>
-          <a href="/es">es</a>
-          <a href="/ca">cat</a>
+          <%= link_to "en", :locale=>'en'%>
+          <%= link_to "es", :locale=>'es'%>
+          <%= link_to "cat", :locale=>'ca'%>
           <span class="menu-btn">&#9776;</span>
         </div>
       </div> <!-- end col-lg-6 -->

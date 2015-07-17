@@ -54,7 +54,7 @@
 <!-- <div id="intro"> -->
 <div id="video">
 	<!-- <div class="left-half"><h1>We </h1></div><div class="right-half"><h1>Code</h1></div> -->
-	<iframe src="https://player.vimeo.com/video/133642731?autoplay=1&color=ec1556" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<iframe id="vimeoplayer" src="https://player.vimeo.com/video/133642731?color=ec1556&api=1&player_id=vimeoplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 </div> <!-- end intro -->
 
@@ -387,7 +387,9 @@
 <div class="sponsors">
 	<div class="container">
 		<h3 style="margin-bottom: 40px;"><%= t :sponsors %></h3>
-		<p class="sub-header"> <%= t :sponsors_subheader %> <br><br><a href="mailto:sharon@ironhack.com" class="btn btn-default btn-default"><%= t :more_info %></a></p>
+		<p class="sub-header"> <%= t :sponsors_subheader %> <br><br>
+		<%= link_to t(:more_info), sponsors_path, class: "btn btn-default"%>
+		</p>
 
 		
 		<div class="row">
