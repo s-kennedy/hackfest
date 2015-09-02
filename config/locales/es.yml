@@ -12,7 +12,7 @@ es:
   sponsors: "Patrocinadores"
 
 # --------------- Intro -----------------
-  coming_soon: "Próximadamente en Oct 2015"
+  coming_soon: "El próximo 17 de Octubre"
   intro_text: "WeCode BCN es un festival de un día para cualquier que tiene curiosiadad, motivación, y un ordenador. Al cabo del día, te marcharas con un a web que funciona y todas las herramientas y conocimentos que te hacen falta para crearla. La participación es gratuita, simplemente trae un portátil. ¡Principiantes bienvenidos!"
   register: "Inscríbete"
 
@@ -94,13 +94,13 @@ es:
   register_name_hint: "Como te llamas?"
   register_email: "Correo"
   register_email_hint: "Escribe tu correo"
-  register_age: "Que edad tienes? (El mínimo para participar es de 17.)"
+  register_age: "Que edad tienes?"
   register_choose: "Elige uno"
   register_data_error: "Rellena este campo, por favor"
-  register_age_item1: "17 - 24"
+  register_age_item1: "15 - 24"
   register_age_item2: "25 - 35"
   register_age_item3: "36 - 50"
-  register_age_item4: "Más de 50"
+  register_age_item4: "50+"
   register_gender: "Cual es tu género?"
   register_gender_item1: "Mujer"
   register_gender_item2: "Hombre"

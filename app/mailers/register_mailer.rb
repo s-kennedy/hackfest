@@ -1,5 +1,5 @@
 class RegisterMailer < ApplicationMailer
-  default from: 'sharon@ironhack.com'
+  default from: 'alberto@ironhack.com'
 
   def welcome_email(user)
     @user = user

@@ -12,7 +12,7 @@ en:
   sponsors: "Sponsors"
 
 # --------------- Intro -----------------
-  coming_soon: "Coming Oct 2015"
+  coming_soon: "Coming Oct 17th, 2015"
   intro_text: "WeCodeBCN is a one-day coding festival for anyone who has curiosity, creativity, and a keyboard. At the end of the day, you'll walk away with a fully functional website and all the skills you used to build it. It's completely free to attend, you just need to bring a laptop. Total beginners are totally welcome!"
   register: "Register"
 
@@ -93,13 +93,13 @@ en:
   register_name_hint: "Please enter your name"
   register_email: "Email"
   register_email_hint: "Please enter a valid email"
-  register_age: "How old are you? (The minimum age to participate is 17.)"
+  register_age: "How old are you?"
   register_choose: "Choose one"
   register_data_error: "Please fill out this field."
-  register_age_item1: "17 - 24"
+  register_age_item1: "15 - 24"
   register_age_item2: "25 - 35"
   register_age_item3: "36 - 50"
-  register_age_item4: "Over 50"
+  register_age_item4: "50+"
   register_gender: "What is your gender?"
   register_gender_item1: "Female"
   register_gender_item2: "Male"
